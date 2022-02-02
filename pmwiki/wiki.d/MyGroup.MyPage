@@ -1,0 +1,15 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=
+charset=ISO-8859-1
+csum=
+ctime=1621585674
+host=::1
+name=MyGroup.MyPage
+rev=1
+targets=
+text=
+time=1621585674
+author:1621585674=
+diff:1621585674:1621585674:=
+host:1621585674=::1

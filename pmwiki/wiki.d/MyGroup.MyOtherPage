@@ -1,0 +1,17 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=myactionbot
+charset=ISO-8859-1
+ctime=1621519080
+host=::1
+name=MyGroup.MyOtherPage
+rev=2
+targets=
+text=xx
+time=1621519088
+author:1621519088=myactionbot
+diff:1621519088:1621519080:=1c1%0a%3c xx%0a\ No newline at end of file%0a---%0a> x%0a\ No newline at end of file%0a
+host:1621519088=::1
+author:1621519080=myactionbot
+diff:1621519080:1621519080:=1d0%0a%3c x%0a\ No newline at end of file%0a
+host:1621519080=::1

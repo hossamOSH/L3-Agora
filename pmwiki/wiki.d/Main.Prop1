@@ -1,0 +1,32 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+author=
+charset=ISO-8859-1
+csum=
+host=::1
+name=Main.Prop1
+rev=7
+targets=
+text=%25width=60%25[[http://agora/index.php/controller/props/1|https://cdn.discordapp.com/attachments/841672965967052830/846732906881220608/telechargement.png]]%0a%0aceci est un test de [++Résolution++] %0a%0a
+time=1623270633
+author:1623270633=
+diff:1623270633:1623270301:=
+host:1623270633=::1
+author:1623270301=
+diff:1623270301:1623270220:=3c3%0a%3c ceci est un test de [++Résolution++] %0a---%0a> ceci est un test de "Résolution" %0a
+host:1623270301=::1
+author:1623270220=
+diff:1623270220:1623270205:=3c3%0a%3c ceci est un test de "Résolution" %0a---%0a> !! ceci est un test de "Résolution" %0a
+host:1623270220=::1
+author:1623270205=
+diff:1623270205:1623270199:=3c3%0a%3c !! ceci est un test de "Résolution" %0a---%0a> !!ceci est un test de "Résolution" %0a
+host:1623270205=::1
+author:1623270199=
+diff:1623270199:1623270184:=3c3%0a%3c !!ceci est un test de "Résolution" %0a---%0a> !!ceci est un test de """résolution""" %0a
+host:1623270199=::1
+author:1623270184=
+diff:1623270184:1623270165:=3c3%0a%3c !!ceci est un test de """résolution""" %0a---%0a> !!ceci est un test de ""resolution"" %0a
+host:1623270184=::1
+author:1623270165=
+diff:1623270165:1623270165:=1,4c1%0a%3c %25width=60%25[[http://agora/index.php/controller/props/1|https://cdn.discordapp.com/attachments/841672965967052830/846732906881220608/telechargement.png]]%0a%3c %0a%3c !!ceci est un test de ""resolution"" %0a%3c %0a---%0a> %25width=60%25[[http://agora/index.php/controller/props/1|https://cdn.discordapp.com/attachments/841672965967052830/846732906881220608/telechargement.png]]%0a\ No newline at end of file%0a
+host:1623270165=::1

@@ -1,0 +1,804 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=
+charset=ISO-8859-1
+csum=
+ctime=1621432950
+host=::1
+name=Main.AjoutezNouvelleProposition
+rev=264
+targets=Main.Accueil
+text=(:input form:)%0a(:input hidden name=n value={$Main.Accueil}:)%0aTexte: (:input text name:)%0a(:input submit:)%0a(:input end:)%0a%0a%0a(:adl form name target=[Main.]Accueil:) %0a||Description:\\%0a(:input text description :)||||%0a(:input submit:)%0a(:adl template "#[[{description}]]: (:adl delete:) [[Editez?passedvalue={description}]]":)%0a(:adl end:)%0a%0a%0a(:input form method=post:)%0a(:input text name=Username:)%0a%0a{$|Username}
+time=1621881865
+author:1621881865=
+diff:1621881865:1621881842:=17,19c17%0a%3c (:input text name=Username:)%0a%3c %0a%3c {$|Username}%0a\ No newline at end of file%0a---%0a> (:input text name=Username:)%0a\ No newline at end of file%0a
+host:1621881865=::1
+author:1621881842=
+diff:1621881842:1621881800:=15,17c15%0a%3c %0a%3c (:input form method=post:)%0a%3c (:input text name=Username:) %0a\ No newline at end of file%0a---%0a>  {$|description }%0a\ No newline at end of file%0a
+host:1621881842=::1
+author:1621881800=
+diff:1621881800:1621881710:=15d14%0a%3c  {$|description }%0a\ No newline at end of file%0a
+host:1621881800=::1
+author:1621881710=
+diff:1621881710:1621881675:=14a15,16%0a> %0a> [[{$FullName}?Foo=Bar]].%0a\ No newline at end of file%0a
+host:1621881710=::1
+author:1621881675=
+diff:1621881675:1621881205:=13,16c13%0a%3c (:adl end:)%0a%3c %0a%3c %0a%3c [[{$FullName}?Foo=Bar]]. %0a\ No newline at end of file%0a---%0a> (:adl end:)%0a\ No newline at end of file%0a
+host:1621881675=::1
+author:1621881205=
+diff:1621881205:1621868177:=12c12,13%0a%3c (:adl template "#[[{description}]]: (:adl delete:) [[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]: (:adl delete:)%0a> [[Editez?passedvalue={description}]]":)%0a
+host:1621881205=::1
+author:1621868177=
+diff:1621868177:1621868155:=12c12%0a%3c (:adl template "#[[{description}]]: (:adl delete:)%0a---%0a> (:adl template "#[[{description}]]: (:adl delete:):)%0a
+host:1621868177=::1
+author:1621868155=
+diff:1621868155:1621868140:=12c12%0a%3c (:adl template "#[[{description}]]: (:adl delete:):)%0a---%0a> (:adl template "#[[{description}]]: (:adl delete:)":)%0a
+host:1621868155=::1
+author:1621868140=
+diff:1621868140:1621868112:=13c13%0a%3c [[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "[[Editez?passedvalue={description}]]: (:adl delete:)":)%0a
+host:1621868140=::1
+author:1621868112=
+diff:1621868112:1621868050:=13c13%0a%3c (:adl template "[[Editez?passedvalue={description}]]: (:adl delete:)":)%0a---%0a> %0a
+host:1621868112=::1
+author:1621868050=
+diff:1621868050:1621868042:=12c12%0a%3c (:adl template "#[[{description}]]: (:adl delete:)":)%0a---%0a> (:adl template "#[[{description}]]: (:adl delete:)"%0a
+host:1621868050=::1
+author:1621868042=
+diff:1621868042:1621868001:=12c12%0a%3c (:adl template "#[[{description}]]: (:adl delete:)"%0a---%0a> (:adl template "#[[{description}]]": (:adl delete:)%0a
+host:1621868042=::1
+author:1621868001=
+diff:1621868001:1621867990:=12c12%0a%3c (:adl template "#[[{description}]]": (:adl delete:)%0a---%0a> (:adl template "#[[{description}]]": (:adl delete:))%0a
+host:1621868001=::1
+author:1621867990=
+diff:1621867990:1621867956:=12,13c12,13%0a%3c (:adl template "#[[{description}]]": (:adl delete:))%0a%3c %0a---%0a> (:adl template "#[[{description}]]":)%0a> (:adl delete:)%0a
+host:1621867990=::1
+author:1621867956=
+diff:1621867956:1621867892:=12,13c12%0a%3c (:adl template "#[[{description}]]":)%0a%3c (:adl delete:)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:):(:adl template "[[Editez?passedvalue={description}]]":)%0a
+host:1621867956=::1
+author:1621867892=
+diff:1621867892:1621867843:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:):(:adl template "[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)||[[Editez?passedvalue={description}]]":)%0a
+host:1621867892=::1
+author:1621867843=
+diff:1621867843:1621867823:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)||[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)||[[Editez?passedvalue={description}|+]]":)%0a
+host:1621867843=::1
+author:1621867823=
+diff:1621867823:1621867623:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)||[[Editez?passedvalue={description}|+]]":)%0a---%0a> (:adl template "#[[{description}|+]]:(:adl delete:)||[[Editez?passedvalue={description}|+]]":)%0a
+host:1621867823=::1
+author:1621867623=
+diff:1621867623:1621867555:=
+host:1621867623=::1
+author:1621867555=
+diff:1621867555:1621867491:=12c12%0a%3c (:adl template "#[[{description}|+]]:(:adl delete:)||[[Editez?passedvalue={description}|+]]":)%0a---%0a> (:adl template "#[[{description}|+]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a
+host:1621867555=::1
+author:1621867491=
+diff:1621867491:1621866864:=
+host:1621867491=::1
+author:1621866864=
+diff:1621866864:1621866854:=12c12%0a%3c (:adl template "#[[{description}|+]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a
+host:1621866864=::1
+author:1621866854=
+diff:1621866854:1621866809:=
+host:1621866854=::1
+author:1621866809=
+diff:1621866809:1621866783:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a---%0a> (:adl template "#[[{description}|+]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a
+host:1621866809=::1
+author:1621866783=
+diff:1621866783:1621866461:=12c12%0a%3c (:adl template "#[[{description}|+]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a
+host:1621866783=::1
+author:1621866461=
+diff:1621866461:1621865743:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|+]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621866461=::1
+author:1621865743=
+diff:1621865743:1621865723:=10c10%0a%3c (:input text description :)||||%0a---%0a> (:input text description='test':)||||%0a
+host:1621865743=::1
+author:1621865723=
+diff:1621865723:1621865620:=10c10%0a%3c (:input text description='test':)||||%0a---%0a> (:input text description "here":)||||%0a
+host:1621865723=::1
+author:1621865620=
+diff:1621865620:1621865575:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={'description'}]]":)%0a
+host:1621865620=::1
+author:1621865575=
+diff:1621865575:1621865460:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={'description'}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621865575=::1
+author:1621865460=
+diff:1621865460:1621865401:=10c10%0a%3c (:input text description "here":)||||%0a---%0a> (:input text description :)||||%0a12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={[description]}]]":)%0a
+host:1621865460=::1
+author:1621865401=
+diff:1621865401:1621865340:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={[description]}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={"description"}]]":)%0a
+host:1621865401=::1
+author:1621865340=
+diff:1621865340:1621865317:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={"description"}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={""description""}]]":)%0a
+host:1621865340=::1
+author:1621865317=
+diff:1621865317:1621865205:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={""description""}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={[=description=]}]]":)%0a
+host:1621865317=::1
+author:1621865205=
+diff:1621865205:1621865157:=12c12%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={[=description=]}]]":)%0a---%0a> (:adl template "#[[{[=description=]}]]:(:adl delete:)[[Editez?passedvalue={[=description=]}]]":)%0a
+host:1621865205=::1
+author:1621865157=
+diff:1621865157:1621865147:=10c10%0a%3c (:input text description :)||||%0a---%0a> (:input text description : )||||%0a
+host:1621865157=::1
+author:1621865147=
+diff:1621865147:1621865117:=10c10%0a%3c (:input text description : )||||%0a---%0a> (:input text description[=...=]: )||||%0a12c12%0a%3c (:adl template "#[[{[=description=]}]]:(:adl delete:)[[Editez?passedvalue={[=description=]}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621865147=::1
+author:1621865117=
+diff:1621865117:1621865108:=10c10%0a%3c (:input text description[=...=]: )||||%0a---%0a> (:input text description: [=...=])||||%0a
+host:1621865117=::1
+author:1621865108=
+diff:1621865108:1621865067:=10c10%0a%3c (:input text description: [=...=])||||%0a---%0a> (:input text description:)||||%0a
+host:1621865108=::1
+author:1621865067=
+diff:1621865067:1621864780:=6,13d5%0a%3c %0a%3c %0a%3c (:adl form name target=[Main.]Accueil:) %0a%3c ||Description:\\%0a%3c (:input text description:)||||%0a%3c (:input submit:)%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a%3c (:adl end:)%0a\ No newline at end of file%0a
+host:1621865067=::1
+author:1621864780=
+diff:1621864780:1621864739:=1c1%0a%3c (:input form:)%0a---%0a> (:input form method=get:)%0a
+host:1621864780=::1
+author:1621864739=
+diff:1621864739:1621864714:=1c1%0a%3c (:input form method=get:)%0a---%0a> (:input form :)%0a
+host:1621864739=::1
+author:1621864714=
+diff:1621864714:1621864689:=1c1%0a%3c (:input form :)%0a---%0a> (:input form "Main.Accueil":)%0a
+host:1621864714=::1
+author:1621864689=
+diff:1621864689:1621864487:=2c2%0a%3c (:input hidden name=n value={$Main.Accueil}:)%0a---%0a> (:input hidden name=n value={Main.Accueil}:)%0a
+host:1621864689=::1
+author:1621864487=
+diff:1621864487:1621864441:=2d1%0a%3c (:input hidden name=n value={Main.Accueil}:)%0a
+host:1621864487=::1
+author:1621864441=
+diff:1621864441:1621864329:=1c1%0a%3c (:input form "Main.Accueil":)%0a---%0a> (:input form:)%0a
+host:1621864441=::1
+author:1621864329=
+diff:1621864329:1621864171:=1c1%0a%3c (:input form:)%0a---%0a> (:input form method=get:)%0a
+host:1621864329=::1
+author:1621864171=
+diff:1621864171:1621864157:=1c1%0a%3c (:input form method=get:)%0a---%0a> (:input form method=post:)%0a
+host:1621864171=::1
+author:1621864157=
+diff:1621864157:1621864049:=2a3%0a> (:input hidden name=n value={$FullName}:)%0a4a6,7%0a> %0a> {name}%0a\ No newline at end of file%0a
+host:1621864157=::1
+author:1621864049=
+diff:1621864049:1621864016:=5,7c5%0a%3c (:input end:)%0a%3c %0a%3c {name}%0a\ No newline at end of file%0a---%0a> (:input end:)%0a\ No newline at end of file%0a
+host:1621864049=::1
+author:1621864016=
+diff:1621864016:1621863942:=1c1%0a%3c (:input form method=post:)%0a---%0a> (:input form action=[Main].Accueil method=post:)%0a3d2%0a%3c (:input hidden name=n value={$FullName}:)%0a
+host:1621864016=::1
+author:1621863942=
+diff:1621863942:1621863917:=1c1%0a%3c (:input form action=[Main].Accueil method=post:)%0a---%0a> (:input form action=Main.Accueil method=post:)%0a
+host:1621863942=::1
+author:1621863917=
+diff:1621863917:1621863788:=1c1%0a%3c (:input form action=Main.Accueil method=post:)%0a---%0a> (:input form method=get:)%0a
+host:1621863917=::1
+author:1621863788=
+diff:1621863788:1621863749:=0a1,9%0a> (:adl form name target=[Main.]Accueil:) %0a> ||Description:\\%0a> (:input text description:)||||%0a> (:input submit:)%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a> (:adl end:)%0a> %0a>    foreach ($_GET as $k=>$v) %0a>       $InputValues[$k] = htmlspecialchars($v);%0a
+host:1621863788=::1
+author:1621863749=
+diff:1621863749:1621863517:=
+host:1621863749=::1
+author:1621863517=
+diff:1621863517:1621863466:=8,9c8%0a%3c    foreach ($_GET as $k=>$v) %0a%3c       $InputValues[$k] = htmlspecialchars($v);%0a---%0a> %0a
+host:1621863517=::1
+author:1621863466=
+diff:1621863466:1621863255:=8,12c8,10%0a%3c %0a%3c (:input form method=get:)%0a%3c Texte: (:input text name:)%0a%3c (:input submit:)%0a%3c (:input end:)%0a\ No newline at end of file%0a---%0a> (:input default source=Main.Accueil:)%0a> (:input textarea name=$:Message cols=50 rows=6 :)%0a> (:input submit:)%0a\ No newline at end of file%0a
+host:1621863466=::1
+author:1621863255=
+diff:1621863255:1621863226:=8,10c8,9%0a%3c (:input default source=Main.Accueil:)%0a%3c (:input textarea name=$:Message cols=50 rows=6 :)%0a%3c (:input submit:)%0a\ No newline at end of file%0a---%0a> (:input default source=Test.MultipleLinePTV:)%0a> (:input textarea name=$:Message cols=50 rows=6 :)%0a\ No newline at end of file%0a
+host:1621863255=::1
+author:1621863226=
+diff:1621863226:1621862656:=8,9c8,18%0a%3c (:input default source=Test.MultipleLinePTV:)%0a%3c (:input textarea name=$:Message cols=50 rows=6 :)%0a\ No newline at end of file%0a---%0a> [[#dataform]]%0a> (:input pmform target=savedata :)%0a> (:input default source={*$FullName} :)%0a> (:input default request=1 :)%0a> (:messages:)%0a> || Name:||(:input text $:name size=25 :) ||%0a> || Email:||(:input text $:email size=25 :) ||%0a> (:input submit :)%0a> (:input end:)%0a> [[#dataformend]]%0a> (:pmform reference:)%0a\ No newline at end of file%0a
+host:1621863226=::1
+author:1621862656=
+diff:1621862656:1621862489:=
+host:1621862656=::1
+author:1621862489=
+diff:1621862489:1621713349:=
+host:1621862489=::1
+author:1621713349=
+diff:1621713349:1621712869:=18c18,21%0a%3c (:pmform reference:)%0a\ No newline at end of file%0a---%0a> %0a> [[#datapost]]%0a> (:template defaults savevars=$:name,$:email :)%0a> [[#datapostend]]%0a\ No newline at end of file%0a
+host:1621713349=::1
+author:1621712869=
+diff:1621712869:1621712495:=19,21d18%0a%3c [[#datapost]]%0a%3c (:template defaults savevars=$:name,$:email :)%0a%3c [[#datapostend]]%0a\ No newline at end of file%0a
+host:1621712869=::1
+author:1621712495=
+diff:1621712495:1621712419:=
+host:1621712495=::1
+author:1621712419=
+diff:1621712419:1621712392:=
+host:1621712419=::1
+author:1621712392=
+diff:1621712392:1621712320:=
+host:1621712392=::1
+author:1621712320=
+diff:1621712320:1621711725:=8,17d7%0a%3c [[#dataform]]%0a%3c (:input pmform target=savedata :)%0a%3c (:input default source={*$FullName} :)%0a%3c (:input default request=1 :)%0a%3c (:messages:)%0a%3c || Name:||(:input text $:name size=25 :) ||%0a%3c || Email:||(:input text $:email size=25 :) ||%0a%3c (:input submit :)%0a%3c (:input end:)%0a%3c [[#dataformend]]%0a
+host:1621712320=::1
+author:1621711725=
+diff:1621711725:1621693231:=8a9,12%0a> (:if equal "{$Description}" "":)Please describe this page!%0a> (:if ! equal "{$Description}" "":)%0a> {$Description}%0a> (:ifend:)%0a\ No newline at end of file%0a
+host:1621711725=::1
+author:1621693231=
+diff:1621693231:1621693218:=
+host:1621693231=::1
+author:1621693218=
+diff:1621693218:1621693210:=3c3%0a%3c (:input text description:)||||%0a---%0a> (:input text description: )||||%0a
+host:1621693218=::1
+author:1621693210=
+diff:1621693210:1621693203:=3c3%0a%3c (:input text description: )||||%0a---%0a> (:input text description "{$Description}": )||||%0a
+host:1621693210=::1
+author:1621693203=
+diff:1621693203:1621693191:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue="{description}"]]":)%0a
+host:1621693203=::1
+author:1621693191=
+diff:1621693191:1621693179:=3c3%0a%3c (:input text description "{$Description}": )||||%0a---%0a> (:input text description: "{$Description}")||||%0a
+host:1621693191=::1
+author:1621693179=
+diff:1621693179:1621693148:=3c3%0a%3c (:input text description: "{$Description}")||||%0a---%0a> (:input text description:)||||%0a
+host:1621693179=::1
+author:1621693148=
+diff:1621693148:1621692654:=9,12d8%0a%3c (:if equal "{$Description}" "":)Please describe this page!%0a%3c (:if ! equal "{$Description}" "":)%0a%3c {$Description}%0a%3c (:ifend:)%0a\ No newline at end of file%0a
+host:1621693148=::1
+author:1621692654=
+diff:1621692654:1621691229:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue="{description}"]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621692654=::1
+author:1621691229=
+diff:1621691229:1621610051:=3a4%0a> data-v={description}%0a
+host:1621691229=::1
+author:1621610051=
+diff:1621610051:1621609777:=4d3%0a%3c data-v={description}%0a6c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[["Editez?passedvalue={description}"]]":)%0a
+host:1621610051=::1
+author:1621609777=
+diff:1621609777:1621609734:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[["Editez?passedvalue={description}"]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue="{description}"]]":)%0a
+host:1621609777=::1
+author:1621609734=
+diff:1621609734:1621609706:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue="{description}"]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621609734=::1
+author:1621609706=
+diff:1621609706:1621609681:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={"description"}]]":)%0a
+host:1621609706=::1
+author:1621609681=
+diff:1621609681:1621609656:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={"description"}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621609681=::1
+author:1621609656=
+diff:1621609656:1621609627:=5c5,6%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={$description}]]":)%0a> (:pagelist $:pagetextvar=avalue:)%0a8a10%0a> {description}%0a\ No newline at end of file%0a
+host:1621609656=::1
+author:1621609627=
+diff:1621609627:1621609577:=6c6%0a%3c (:pagelist $:pagetextvar=avalue:)%0a---%0a> (:pagelist $:MyPageTextVariable=-VALUE :)%0a10c10%0a%3c {description}%0a\ No newline at end of file%0a---%0a> $:pagetextvar%0a\ No newline at end of file%0a
+host:1621609627=::1
+author:1621609577=
+diff:1621609577:1621609550:=6c6%0a%3c (:pagelist $:MyPageTextVariable=-VALUE :)%0a---%0a> (:pagelist $:pagetextvar={description}:)%0a
+host:1621609577=::1
+author:1621609550=
+diff:1621609550:1621609539:=10d9%0a%3c $:pagetextvar%0a\ No newline at end of file%0a
+host:1621609550=::1
+author:1621609539=
+diff:1621609539:1621609516:=6d5%0a%3c (:pagelist $:pagetextvar={description}:)%0a9a9%0a> (:pagelist $:pagetextvar=avalue:)%0a\ No newline at end of file%0a
+host:1621609539=::1
+author:1621609516=
+diff:1621609516:1621609489:=9c9%0a%3c (:pagelist $:pagetextvar=avalue:)%0a\ No newline at end of file%0a---%0a> (:pagelist:)%0a\ No newline at end of file%0a
+host:1621609516=::1
+author:1621609489=
+diff:1621609489:1621609131:=9d8%0a%3c (:pagelist:)%0a\ No newline at end of file%0a
+host:1621609489=::1
+author:1621609131=
+diff:1621609131:1621609028:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={$description}]]":)%0a---%0a> (:adl template "#[[{$description}]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a
+host:1621609131=::1
+author:1621609028=
+diff:1621609028:1621608966:=5c5%0a%3c (:adl template "#[[{$description}]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a---%0a> (:adl template "#[[{$:description}]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a
+host:1621609028=::1
+author:1621608966=
+diff:1621608966:1621608945:=5c5%0a%3c (:adl template "#[[{$:description}]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a---%0a> (:adl template "#[["{$:description}"]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a
+host:1621608966=::1
+author:1621608945=
+diff:1621608945:1621608709:=5c5%0a%3c (:adl template "#[["{$:description}"]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a---%0a> (:adl template "#[[{$:description}]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a
+host:1621608945=::1
+author:1621608709=
+diff:1621608709:1621608657:=5c5,7%0a%3c (:adl template "#[[{$:description}]]:(:adl delete:)[[Editez?passedvalue={$:description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={|description}]]":)%0a> %0a> "{$:(:input text description:)}"%0a
+host:1621608709=::1
+author:1621608657=
+diff:1621608657:1621608627:=6,7c6,7%0a%3c %0a%3c "{$:(:input text description:)}"%0a---%0a> :description: test%0a> "{$:description}"%0a
+host:1621608657=::1
+author:1621608627=
+diff:1621608627:1621608578:=6d5%0a%3c :description: test%0a
+host:1621608627=::1
+author:1621608578=
+diff:1621608578:1621608568:=6d5%0a%3c "{$:description}"%0a9a9%0a> "{$:description}"%0a\ No newline at end of file%0a
+host:1621608578=::1
+author:1621608568=
+diff:1621608568:1621608550:=8,9c8,9%0a%3c %0a%3c "{$:description}"%0a\ No newline at end of file%0a---%0a> :Name: Crisses%0a> "{$:Name}"%0a\ No newline at end of file%0a
+host:1621608568=::1
+author:1621608550=
+diff:1621608550:1621608411:=8,9d7%0a%3c :Name: Crisses%0a%3c "{$:Name}"%0a\ No newline at end of file%0a
+host:1621608550=::1
+author:1621608411=
+diff:1621608411:1621608348:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={|description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={$?description}]]":)%0a
+host:1621608411=::1
+author:1621608348=
+diff:1621608348:1621608201:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={$?description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a
+host:1621608348=::1
+author:1621608201=
+diff:1621608201:1621608142:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={*description}]]":)%0a
+host:1621608201=::1
+author:1621608142=
+diff:1621608142:1621608082:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={*description}]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={*description}|Editez]]":)%0a
+host:1621608142=::1
+author:1621608082=
+diff:1621608082:1621607910:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={*description}|Editez]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]":)%0a
+host:1621608082=::1
+author:1621607910=
+diff:1621607910:1621606400:=
+host:1621607910=::1
+author:1621606400=
+diff:1621606400:1621606381:=4c4%0a%3c (:input submit:)%0a---%0a> (:input submit:)||||%0a
+host:1621606400=::1
+author:1621606381=
+diff:1621606381:1621606335:=4,5c4,5%0a%3c (:input submit:)||||%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]":)%0a---%0a> (:input submit:)%0a> (:adl template "[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]":)%0a
+host:1621606381=::1
+author:1621606335=
+diff:1621606335:1621606181:=5c5%0a%3c (:adl template "[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]":)%0a
+host:1621606335=::1
+author:1621606181=
+diff:1621606181:1621606040:=
+host:1621606181=::1
+author:1621606040=
+diff:1621606040:1621606004:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:):[[Editez?passedvalue={description}|Editez]]":)%0a
+host:1621606040=::1
+author:1621606004=
+diff:1621606004:1621605712:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:):[[Editez?passedvalue={description}|Editez]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]%0a
+host:1621606004=::1
+author:1621605712=
+diff:1621605712:1621605697:=
+host:1621605712=::1
+author:1621605697=
+diff:1621605697:1621605691:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]]%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]])%0a
+host:1621605697=::1
+author:1621605691=
+diff:1621605691:1621605660:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]])%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:):[[Editez?passedvalue={description}|Editez]] ":)%0a7a8,9%0a> #test%0a> #test2%0a\ No newline at end of file%0a
+host:1621605691=::1
+author:1621605660=
+diff:1621605660:1621605564:=8,9d7%0a%3c #test%0a%3c #test2%0a\ No newline at end of file%0a
+host:1621605660=::1
+author:1621605564=
+diff:1621605564:1621605476:=
+host:1621605564=::1
+author:1621605476=
+diff:1621605476:1621605249:=
+host:1621605476=::1
+author:1621605249=
+diff:1621605249:1621605131:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:):[[Editez?passedvalue={description}|Editez]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]] ":)%0a
+host:1621605249=::1
+author:1621605131=
+diff:1621605131:1621605088:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}|Editez]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]] ":)%0a
+host:1621605131=::1
+author:1621605088=
+diff:1621605088:1621605047:=
+host:1621605088=::1
+author:1621605047=
+diff:1621605047:1621605036:=
+host:1621605047=::1
+author:1621605036=
+diff:1621605036:1621604481:=
+host:1621605036=::1
+author:1621604481=
+diff:1621604481:1621604450:=
+host:1621604481=::1
+author:1621604450=
+diff:1621604450:1621604335:=
+host:1621604450=::1
+author:1621604335=
+diff:1621604335:1621604244:=
+host:1621604335=::1
+author:1621604244=
+diff:1621604244:1621603978:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue={description}]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue=hossam]] ":)%0a7a8%0a> (:adl append {$|description}:)%0a
+host:1621604244=::1
+author:1621603978=
+diff:1621603978:1621603922:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez?passedvalue=hossam]] ":)%0a---%0a> (:adl template "#[[{description}?passedvalue=hossam]]:(:adl delete:)[[Editez]] ":)%0a
+host:1621603978=::1
+author:1621603922=
+diff:1621603922:1621603869:=5c5%0a%3c (:adl template "#[[{description}?passedvalue=hossam]]:(:adl delete:)[[Editez]] ":)%0a---%0a> (:adl template "#[[{description}?passedValue=hossam]]:(:adl delete:)[[Editez]] ":)%0a
+host:1621603922=::1
+author:1621603869=
+diff:1621603869:1621603755:=5c5%0a%3c (:adl template "#[[{description}?passedValue=hossam]]:(:adl delete:)[[Editez]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez]] ":)%0a
+host:1621603869=::1
+author:1621603755=
+diff:1621603755:1621603736:=5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez]] ":)%0a---%0a> (:adl template "#[[{$description}]]:(:adl delete:)[[Editez]] ":)%0a
+host:1621603755=::1
+author:1621603736=
+diff:1621603736:1621603695:=
+host:1621603736=::1
+author:1621603695=
+diff:1621603695:1621603671:=7a8%0a> %0a8a10,11%0a> %0a> {$|description}%0a\ No newline at end of file%0a
+host:1621603695=::1
+author:1621603671=
+diff:1621603671:1621603606:=5c5%0a%3c (:adl template "#[[{$description}]]:(:adl delete:)[[Editez]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez]] ":)%0a10d9%0a%3c %0a
+host:1621603671=::1
+author:1621603606=
+diff:1621603606:1621603554:=10d9%0a%3c {$|description}%0a\ No newline at end of file%0a
+host:1621603606=::1
+author:1621603554=
+diff:1621603554:1621603332:=9c9%0a%3c (:adl append {$|description}:)%0a---%0a> (:adl append name:)%0a
+host:1621603554=::1
+author:1621603332=
+diff:1621603332:1621603308:=1c1%0a%3c (:adl form name target=[Main.]Accueil:) %0a---%0a> (:adl form name target=[Main.]Accueil,[Main.]Editez:) %0a
+host:1621603332=::1
+author:1621603308=
+diff:1621603308:1621603259:=1c1,2%0a%3c (:adl form name target=[Main.]Accueil,[Main.]Editez:) %0a---%0a> (:adl form name target=[Main.]Accueil:) %0a> (:adl form name target=[Main.]Editez:) %0a
+host:1621603308=::1
+author:1621603259=
+diff:1621603259:1621603220:=1,2c1,2%0a%3c (:adl form name target=[Main.]Accueil:) %0a%3c (:adl form name target=[Main.]Editez:) %0a---%0a> (:adl form name target=[Main.]Accueil,Editez:) %0a> %0a
+host:1621603259=::1
+author:1621603220=
+diff:1621603220:1621603099:=1c1%0a%3c (:adl form name target=[Main.]Accueil,Editez:) %0a---%0a> (:adl form name target=[Main.]Editez:) %0a
+host:1621603220=::1
+author:1621603099=
+diff:1621603099:1621585335:=1c1%0a%3c (:adl form name target=[Main.]Editez:) %0a---%0a> (:adl form name target=[Main.]Accueil:) %0a
+host:1621603099=::1
+author:1621585335=
+diff:1621585335:1621522400:=6c6%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Main.Editer?action=myaction]] ":)%0a
+host:1621585335=::1
+author:1621522400=
+diff:1621522400:1621522394:=
+host:1621522400=::1
+author:1621522394=
+diff:1621522394:1621522259:=
+host:1621522394=::1
+author:1621522259=
+diff:1621522259:1621522170:=6c6%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Main.Editer?action=myaction]] ":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[{*$FullName}?action=myaction| Editez]]":)%0a
+host:1621522259=::1
+author:1621522170=
+diff:1621522170:1621519398:=
+host:1621522170=::1
+author:1621519398=
+diff:1621519398:1621518500:=6c6%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[{*$FullName}?action=myaction| Editez]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)[[Editez]]":)%0a
+host:1621519398=::1
+author:1621518500=zddz
+diff:1621518500:1621518482:=1c1%0a%3c (:adl form name target=[Main.]Accueil:) %0a---%0a> (:adl form name target=[Main.]Accueil?action=phpinfo:) %0a
+host:1621518500=::1
+author:1621518482=zddz
+diff:1621518482:1621515970:=1c1%0a%3c (:adl form name target=[Main.]Accueil?action=phpinfo:) %0a---%0a> (:adl form name target=[Main.]Accueil:) %0a
+host:1621518482=::1
+author:1621515970=zddz
+diff:1621515970:1621515922:=
+host:1621515970=::1
+author:1621515922=zddz
+diff:1621515922:1621515868:=1c1%0a%3c (:adl form name target=[Main.]Accueil:) %0a---%0a> (:adl form name target=[Accueil]:) %0a
+host:1621515922=::1
+author:1621515868=zddz
+diff:1621515868:1621515843:=1c1%0a%3c (:adl form name target=[Accueil]:) %0a---%0a> (:adl form name target=[Accueil,Editez]:) %0a
+host:1621515868=::1
+author:1621515843=zddz
+diff:1621515843:1621515539:=1c1%0a%3c (:adl form name target=[Accueil,Editez]:) %0a---%0a> (:adl form name target=[Accueil]:) %0a
+host:1621515843=::1
+author:1621515539=zddz
+diff:1621515539:1621515478:=
+host:1621515539=::1
+author:1621515478=zddz
+diff:1621515478:1621515351:=
+host:1621515478=::1
+author:1621515351=zddz
+diff:1621515351:1621515168:=6c6%0a%3c (:adl template "#[[{description}]]:(:adl delete:)[[Editez]]":)%0a---%0a> (:adl template "#[[{description}]]:(:adl delete:)":)%0a
+host:1621515351=::1
+author:1621515168=zddz
+diff:1621515168:1621515161:=3c3%0a%3c ||Description:\\%0a---%0a> ||Description:||\\%0a
+host:1621515168=::1
+author:1621515161=zddz
+diff:1621515161:1621515088:=3,4c3%0a%3c ||Description:||\\%0a%3c (:input text description:)||||%0a---%0a> ||Description:||(:input text description:)||||%0a
+host:1621515161=::1
+author:1621515088=zddz
+diff:1621515088:1621515067:=3c3%0a%3c ||Description:||(:input text description:)||||%0a---%0a> ||Description:||(:input text description:) %0a
+host:1621515088=::1
+author:1621515067=zddz
+diff:1621515067:1621514919:=3c3%0a%3c ||Description:||(:input text description:) %0a---%0a> (:input text titre:) %0a5c5%0a%3c (:adl template "#[[{description}]]:(:adl delete:)":)%0a---%0a> (:adl template "#[[{titre}]]:(:adl delete:)":)%0a
+host:1621515067=::1
+author:1621514919=zddz
+diff:1621514919:1621514884:=5c5%0a%3c (:adl template "#[[{titre}]]:(:adl delete:)":)%0a---%0a> (:adl template "#[[{titre}]]:||(:adl delete:)||":)%0a
+host:1621514919=::1
+author:1621514884=zddz
+diff:1621514884:1621514841:=5c5%0a%3c (:adl template "#[[{titre}]]:||(:adl delete:)||":)%0a---%0a> (:adl template "#{titre}:||(:adl delete:)||":)%0a
+host:1621514884=::1
+author:1621514841=zddz
+diff:1621514841:1621514835:=5c5%0a%3c (:adl template "#{titre}:||(:adl delete:)||":)%0a---%0a> (:adl template "#{titre}:||(:adl delete:)||":))%0a
+host:1621514841=::1
+author:1621514835=zddz
+diff:1621514835:1621514805:=5c5%0a%3c (:adl template "#{titre}:||(:adl delete:)||":))%0a---%0a> (:adl template "#{titre}":||(:adl delete:)||":))%0a
+host:1621514835=::1
+author:1621514805=zddz
+diff:1621514805:1621514761:=5c5%0a%3c (:adl template "#{titre}":||(:adl delete:)||":))%0a---%0a> (:adl template "#{titre}":)%0a
+host:1621514805=::1
+author:1621514761=zddz
+diff:1621514761:1621514669:=5c5%0a%3c (:adl template "#{titre}":)%0a---%0a> (:adl template "{titre} (:adl delete:) ":)%0a
+host:1621514761=::1
+author:1621514669=zddz
+diff:1621514669:1621514646:=1c1%0a%3c (:adl form name target=[Accueil]:) %0a---%0a> (:adl form name:) %0a
+host:1621514669=::1
+author:1621514646=zddz
+diff:1621514646:1621514643:=9c9,10%0a%3c (:adl append name:)%0a---%0a> qzdzqddzq (:adl delete 1621514643a32947b0 Main.AjoutezNouvelleProposition:) %0a> (:adl append name:)%0a\ No newline at end of file%0a
+host:1621514646=::1
+author:1621514643=zddz
+diff:1621514643:1621514640:=9d8%0a%3c qzdzqddzq (:adl delete 1621514643a32947b0 Main.AjoutezNouvelleProposition:) %0a
+host:1621514643=::1
+author:1621514640=zddz
+diff:1621514640:1621514608:=5c5%0a%3c (:adl template "{titre} (:adl delete:) ":)%0a---%0a> (:adl template "{titre}: (:adl delete:)" :)%0a
+host:1621514640=::1
+author:1621514608=zddz
+diff:1621514608:1621514568:=5c5,6%0a%3c (:adl template "{titre}: (:adl delete:)" :)%0a---%0a> (:adl template {titre}:)%0a> (:adl delete:)%0a8a10,12%0a> %0a> %0a> dqzzqdzdq%0a
+host:1621514608=::1
+author:1621514568=zddz
+diff:1621514568:1621514565:=12d11%0a%3c dqzzqdzdq%0a
+host:1621514568=::1
+author:1621514565=zddz
+diff:1621514565:1621514539:=5c5%0a%3c (:adl template {titre}:)%0a---%0a> (:adl template template-string:)%0a11c11%0a%3c %0a---%0a> template-string%0a
+host:1621514565=::1
+author:1621514539=zddz
+diff:1621514539:1621514526:=11d10%0a%3c template-string%0a
+host:1621514539=::1
+author:1621514526=zddz
+diff:1621514526:1621514503:=6d5%0a%3c (:adl delete:)%0a10c9%0a%3c %0a---%0a> template-string%0a
+host:1621514526=::1
+author:1621514503=zddz
+diff:1621514503:1621514501:=9d8%0a%3c template-string%0a
+host:1621514503=::1
+author:1621514501=zddz
+diff:1621514501:1621514488:=8a9%0a> template-string%0a
+host:1621514501=::1
+author:1621514488=zddz
+diff:1621514488:1621514485:=9d8%0a%3c template-string%0a
+host:1621514488=::1
+author:1621514485=zddz
+diff:1621514485:1621514467:=5c5%0a%3c (:adl template template-string:)%0a---%0a> (:adl template name:)%0a8c8,9%0a%3c %0a---%0a> template-string%0a> name%0a
+host:1621514485=::1
+author:1621514467=zddz
+diff:1621514467:1621514464:=9d8%0a%3c name%0a
+host:1621514467=::1
+author:1621514464=zddz
+diff:1621514464:1621514440:=5c5%0a%3c (:adl template name:)%0a---%0a> (:adl template template-string:)%0a
+host:1621514464=::1
+author:1621514440=zddz
+diff:1621514440:1621514437:=8d7%0a%3c template-string%0a
+host:1621514440=::1
+author:1621514437=zddz
+diff:1621514437:1621514392:=1,2c1,2%0a%3c (:adl form name:) %0a%3c %0a---%0a> (:adl form name [target=Main/Accueil]:) %0a> %0a4a5%0a>   %0a6,8c7%0a%3c (:adl end:)%0a%3c %0a%3c (:adl append name:)%0a\ No newline at end of file%0a---%0a> (:adl end:)%0a\ No newline at end of file%0a
+host:1621514437=::1
+author:1621514392=zddz
+diff:1621514392:1621514366:=
+host:1621514392=::1
+author:1621514366=zddz
+diff:1621514366:1621514363:=
+host:1621514366=::1
+author:1621514363=zddz
+diff:1621514363:1621514110:=1,7c1,12%0a%3c (:adl form name [target=Main/Accueil]:) %0a%3c %0a%3c (:input text titre:) %0a%3c (:input submit:)%0a%3c   %0a%3c (:adl template template-string:)%0a%3c (:adl end:)%0a\ No newline at end of file%0a---%0a>   (:adl form multipleexample:)%0a>   Please enter your cat's name:  (:input text name:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   * Enter a toy: (:input text toy[]:)%0a>   (:input submit submit "Run the template":)%0a>   (:adl template {name} likes to play with {toy[]}.\n\n:)(:adl end:)%0a>   (:adl append multipleexample:)%0a\ No newline at end of file%0a
+host:1621514363=::1
+author:1621514110=zddz
+diff:1621514110:1621514097:=
+host:1621514110=::1
+author:1621514097=zddz
+diff:1621514097:1621514091:=
+host:1621514097=::1
+author:1621514091=zddz
+diff:1621514091:1621514053:=1,12c1,7%0a%3c   (:adl form multipleexample:)%0a%3c   Please enter your cat's name:  (:input text name:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   * Enter a toy: (:input text toy[]:)%0a%3c   (:input submit submit "Run the template":)%0a%3c   (:adl template {name} likes to play with {toy[]}.\n\n:)(:adl end:)%0a%3c   (:adl append multipleexample:)%0a\ No newline at end of file%0a---%0a> (:adl form name [target=Main.Accueil]:) %0a> %0a> (:input text name:) %0a> (:input submit:)%0a>   %0a> (:adl templatepage Main.Accueil:)%0a> (:adl end:)%0a
+host:1621514091=::1
+author:1621514053=zddz
+diff:1621514053:1621514051:=
+host:1621514053=::1
+author:1621514051=zddz
+diff:1621514051:1621513997:=6c6%0a%3c (:adl templatepage Main.Accueil:)%0a---%0a> (:adl template name:)%0a
+host:1621514051=::1
+author:1621513997=zddz
+diff:1621513997:1621513994:=
+host:1621513997=::1
+author:1621513994=zddz
+diff:1621513994:1621513974:=1c1%0a%3c (:adl form name [target=Main.Accueil]:) %0a---%0a> (:adl form name [target=Accueil]:) %0a
+host:1621513994=::1
+author:1621513974=zddz
+diff:1621513974:1621513971:=
+host:1621513974=::1
+author:1621513971=zddz
+diff:1621513971:1621513948:=1c1%0a%3c (:adl form name [target=Accueil]:) %0a---%0a> (:adl form name [target=[Group.]Page]:) %0a
+host:1621513971=::1
+author:1621513948=zddz
+diff:1621513948:1621513924:=
+host:1621513948=::1
+author:1621513924=zddz
+diff:1621513924:1621513921:=
+host:1621513924=::1
+author:1621513921=zddz
+diff:1621513921:1621513908:=3c3%0a%3c (:input text name:) %0a---%0a> (:input text name1:) %0a
+host:1621513921=::1
+author:1621513908=zddz
+diff:1621513908:1621513876:=
+host:1621513908=::1
+author:1621513876=zddz
+diff:1621513876:1621513873:=
+host:1621513876=::1
+author:1621513873=zddz
+diff:1621513873:1621513779:=6,7c6,7%0a%3c (:adl template name:)%0a%3c (:adl end:)%0a---%0a>   (:adl template template-string:)%0a>   (:adl end:)%0a
+host:1621513873=::1
+author:1621513779=zddz
+diff:1621513779:1621513775:=
+host:1621513779=::1
+author:1621513775=zddz
+diff:1621513775:1621513757:=3c3,4%0a%3c (:input text name1:) %0a---%0a> (:input text name1 "default value filled in":) %0a> (:input text name2:) %0a
+host:1621513775=::1
+author:1621513757=zddz
+diff:1621513757:1621513527:=1,8c1,6%0a%3c (:adl form name [target=[Group.]Page]:) %0a%3c %0a%3c (:input text name1 "default value filled in":) %0a%3c (:input text name2:) %0a%3c (:input submit:)%0a%3c   %0a%3c   (:adl template template-string:)%0a%3c   (:adl end:)%0a---%0a> (:adl form simpleExample [target=Accueil]:)%0a> ||%0a> ||Your name:||(:input text name:)||||%0a> ||What do you want to say?||(:input text TheySay:)||||%0a> ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a> (:adl append simpleExample:)%0a
+host:1621513757=::1
+author:1621513527=zddz
+diff:1621513527:1621513491:=
+host:1621513527=::1
+author:1621513491=zddz
+diff:1621513491:1621513487:=
+host:1621513491=::1
+author:1621513487=zddz
+diff:1621513487:1621513483:=6c6,7%0a%3c (:adl append simpleExample:)%0a---%0a> ||adzdza says:||dazdza||(:adl delete 1621513452a31598b0 Main.AjoutezNouvelleProposition:)||%0a> (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621513487=::1
+author:1621513483=zddz
+diff:1621513483:1621513452:=1c1%0a%3c (:adl form simpleExample [target=Accueil]:)%0a---%0a> (:adl form simpleExample:)%0a
+host:1621513483=::1
+author:1621513452=zddz
+diff:1621513452:1621513449:=6d5%0a%3c ||adzdza says:||dazdza||(:adl delete 1621513452a31598b0 Main.AjoutezNouvelleProposition:)||%0a
+host:1621513452=::1
+author:1621513449=zddz
+diff:1621513449:1621513428:=1c1%0a%3c (:adl form simpleExample:)%0a---%0a> (:adl form name[target=AjoutezNouvelleProposition]:)%0a3,6c3,6%0a%3c ||Your name:||(:input text name:)||||%0a%3c ||What do you want to say?||(:input text TheySay:)||||%0a%3c ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a> ||Your Titre:||(:input text titre:)||||%0a> ||(:input submit:)||||||(:adl template "||user says:||{titre}":)%0a> ||(:adl end:)%0a> (:adl append name:)%0a\ No newline at end of file%0a
+host:1621513449=::1
+author:1621513428=zddz
+diff:1621513428:1621513425:=
+host:1621513428=::1
+author:1621513425=zddz
+diff:1621513425:1621513371:=1c1%0a%3c (:adl form name[target=AjoutezNouvelleProposition]:)%0a---%0a> (:adl form name[target=Accueil]:)%0a4a5%0a> %0a
+host:1621513425=::1
+author:1621513371=zddz
+diff:1621513371:1621513368:=
+host:1621513371=::1
+author:1621513368=zddz
+diff:1621513368:1621513345:=4c4%0a%3c ||(:input submit:)||||||(:adl template "||user says:||{titre}":)%0a---%0a> ||(:input submit:)||||||(:adl template "||user says:||{titre}"%0a
+host:1621513368=::1
+author:1621513345=zddz
+diff:1621513345:1621513267:=4,5c4,5%0a%3c ||(:input submit:)||||||(:adl template "||user says:||{titre}"%0a%3c %0a---%0a> ||(:input submit:)||||%0a> (:adl template My name is {titre}.:)%0a
+host:1621513345=::1
+author:1621513267=zddz
+diff:1621513267:1621513264:=
+host:1621513267=::1
+author:1621513264=zddz
+diff:1621513264:1621513172:=1c1%0a%3c (:adl form name[target=Accueil]:)%0a---%0a> (:adl form name[target=Main.Accueil]:)%0a
+host:1621513264=::1
+author:1621513172=zddz
+diff:1621513172:1621513168:=
+host:1621513172=::1
+author:1621513168=zddz
+diff:1621513168:1621513136:=5c5%0a%3c (:adl template My name is {titre}.:)%0a---%0a> (:adl template template-string:)%0a
+host:1621513168=::1
+author:1621513136=zddz
+diff:1621513136:1621513067:=
+host:1621513136=::1
+author:1621513067=zddz
+diff:1621513067:1621513064:=
+host:1621513067=::1
+author:1621513064=zddz
+diff:1621513064:1621512983:=5c5%0a%3c (:adl template template-string:)%0a---%0a> (:adl template My titre is {titre}.:)%0a
+host:1621513064=::1
+author:1621512983=zddz
+diff:1621512983:1621512882:=
+host:1621512983=::1
+author:1621512882=zddz
+diff:1621512882:1621512877:=
+host:1621512882=::1
+author:1621512877=zddz
+diff:1621512877:1621512794:=3c3%0a%3c ||Your Titre:||(:input text titre:)||||%0a---%0a> ||Your Titre:||(:input text name:)||||%0a5c5%0a%3c (:adl template My titre is {titre}.:)%0a---%0a> (:adl template My name is {name}.:)%0a
+host:1621512877=::1
+author:1621512794=zddz
+diff:1621512794:1621512790:=
+host:1621512794=::1
+author:1621512790=zddz
+diff:1621512790:1621512784:=
+host:1621512790=::1
+author:1621512784=zddz
+diff:1621512784:1621512771:=7d6%0a%3c (:adl append name:)%0a\ No newline at end of file%0a
+host:1621512784=::1
+author:1621512771=zddz
+diff:1621512771:1621512683:=5c5%0a%3c (:adl template My name is {name}.:)%0a---%0a> (:adl template template-string:)%0a
+host:1621512771=::1
+author:1621512683=zddz
+diff:1621512683:1621512678:=
+host:1621512683=::1
+author:1621512678=zddz
+diff:1621512678:1621512640:=4,6c4,5%0a%3c ||(:input submit:)||||%0a%3c (:adl template template-string:)%0a%3c ||(:adl end:)%0a---%0a> ||(:input submit:)||||||(:adl end:)%0a> (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621512678=::1
+author:1621512640=zddz
+diff:1621512640:1621512481:=1c1%0a%3c (:adl form name[target=Main.Accueil]:)%0a---%0a> (:adl form simpleExample:)%0a3,4c3,4%0a%3c ||Your Titre:||(:input text name:)||||%0a%3c ||(:input submit:)||||||(:adl end:)%0a---%0a> ||Your name:||(:input text name:)||||%0a> ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a
+host:1621512640=::1
+author:1621512481=zddz
+diff:1621512481:1621512469:=3a4%0a> ||What do you want to say?||(:input text TheySay:)||||%0a
+host:1621512481=::1
+author:1621512469=zddz
+diff:1621512469:1621512445:=1,6c1,6%0a%3c (:adl form simpleExample:)%0a%3c ||%0a%3c ||Your name:||(:input text name:)||||%0a%3c ||What do you want to say?||(:input text TheySay:)||||%0a%3c ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a>   (:adl form simpleExample:)%0a>   ||%0a>   ||Your name:||(:input text name:)||||%0a>   ||What do you want to say?||(:input text TheySay:)||||%0a>   ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a>   (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621512469=::1
+author:1621512445=zddz
+diff:1621512445:1621512427:=1,6c1,6%0a%3c   (:adl form simpleExample:)%0a%3c   ||%0a%3c   ||Your name:||(:input text name:)||||%0a%3c   ||What do you want to say?||(:input text TheySay:)||||%0a%3c   ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c   (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a>  (:adl form simpleExample:)%0a>  ||%0a>  ||Your name:||(:input text name:)||||%0a>  ||What do you want to say?||(:input text TheySay:)||||%0a>  ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a>  (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621512445=::1
+author:1621512427=zddz
+diff:1621512427:1621512415:=1,6c1,6%0a%3c  (:adl form simpleExample:)%0a%3c  ||%0a%3c  ||Your name:||(:input text name:)||||%0a%3c  ||What do you want to say?||(:input text TheySay:)||||%0a%3c  ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c  (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a>   (:adl form simpleExample:)%0a>   ||%0a>   ||Your name:||(:input text name:)||||%0a>   ||What do you want to say?||(:input text TheySay:)||||%0a>   ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a>   (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621512427=::1
+author:1621512415=zddz
+diff:1621512415:1621512394:=1,6c1,6%0a%3c   (:adl form simpleExample:)%0a%3c   ||%0a%3c   ||Your name:||(:input text name:)||||%0a%3c   ||What do you want to say?||(:input text TheySay:)||||%0a%3c   ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c   (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a>  (:adl form name [target=Accueil]:) %0a>  ||%0a>  ||Titre de la proposition :||(:input text name1 "default value filled in":)||||%0a>  ||(:input submit:)||||%0a>   (:adl template template-string:)%0a>   (:adl end:)%0a
+host:1621512415=::1
+author:1621512394=zddz
+diff:1621512394:1621512361:=
+host:1621512394=::1
+author:1621512361=zddz
+diff:1621512361:1621512354:=
+host:1621512361=::1
+author:1621512354=zddz
+diff:1621512354:1621512306:=3,4c3,4%0a%3c  ||Titre de la proposition :||(:input text name1 "default value filled in":)||||%0a%3c  ||(:input submit:)||||%0a---%0a>  ||Titre de la proposition (:input text name1 "default value filled in":)%0a>  ||(:input submit:)||%0a
+host:1621512354=::1
+author:1621512306=zddz
+diff:1621512306:1621512245:=3,4c3%0a%3c  ||Titre de la proposition (:input text name1 "default value filled in":)%0a%3c  ||(:input submit:)||%0a---%0a>  ||(:input text name1 "default value filled in":)%0a
+host:1621512306=::1
+author:1621512245=zddz
+diff:1621512245:1621512047:=1,4c1,11%0a%3c  (:adl form name [target=Accueil]:) %0a%3c  ||%0a%3c  ||(:input text name1 "default value filled in":)%0a%3c   (:adl template template-string:)%0a---%0a> (:adl form name [target=[Group.]Page]:) %0a>   %0a>   // Input field declaration %0a>   //   (:input text name1 "default value filled in":) %0a>   //   (:input text name2:) %0a>   //   other (:input data ...:) %0a>   //   and formatting data (||table declarations|| * bullet lists, whatever)%0a>   //   etc %0a> %0a>   %0a>   (:adl template template-string:)[ or (:adl templatepage template-page:)] %0a
+host:1621512245=::1
+author:1621512047=zddz
+diff:1621512047:1621512017:=1,12c1,9%0a%3c (:adl form name [target=[Group.]Page]:) %0a%3c   %0a%3c   // Input field declaration %0a%3c   //   (:input text name1 "default value filled in":) %0a%3c   //   (:input text name2:) %0a%3c   //   other (:input data ...:) %0a%3c   //   and formatting data (||table declarations|| * bullet lists, whatever)%0a%3c   //   etc %0a%3c %0a%3c   %0a%3c   (:adl template template-string:)[ or (:adl templatepage template-page:)] %0a%3c   (:adl end:)%0a---%0a> %25font-size=40px%25 Titre%0a> %0a> %0a> (:adl form simpleExample:)%0a> ||%0a> ||Your name:||(:input text name:)||||%0a> ||What do you want to say?||(:input text TheySay:)||||%0a> ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a> (:adl append simpleExample:)%0a
+host:1621512047=::1
+author:1621512017=zddz
+diff:1621512017:1621512011:=9c9,10%0a%3c (:adl append simpleExample:)%0a---%0a> ||hossam says:||heelloo||(:adl delete 1621512011a52032b0 Main.AjoutezNouvelleProposition:)||%0a> (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621512017=::1
+author:1621512011=zddz
+diff:1621512011:1621512003:=9d8%0a%3c ||hossam says:||heelloo||(:adl delete 1621512011a52032b0 Main.AjoutezNouvelleProposition:)||%0a
+host:1621512011=::1
+author:1621512003=zddz
+diff:1621512003:1621511957:=4,9c4,9%0a%3c (:adl form simpleExample:)%0a%3c ||%0a%3c ||Your name:||(:input text name:)||||%0a%3c ||What do you want to say?||(:input text TheySay:)||||%0a%3c ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a>   (:adl form simpleExample:)%0a>   ||%0a>   ||Your name:||(:input text name:)||||%0a>   ||What do you want to say?||(:input text TheySay:)||||%0a>   ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a>   (:adl append simpleExample:)%0a\ No newline at end of file%0a
+host:1621512003=::1
+author:1621511957=zddz
+diff:1621511957:1621511951:=
+host:1621511957=::1
+author:1621511951=zddz
+diff:1621511951:1621436054:=4,9c4,14%0a%3c   (:adl form simpleExample:)%0a%3c   ||%0a%3c   ||Your name:||(:input text name:)||||%0a%3c   ||What do you want to say?||(:input text TheySay:)||||%0a%3c   ||(:input submit:)||||||(:adl template "||{name} says:||{TheySay}||(:adl delete:)||":)(:adl end:)%0a%3c   (:adl append simpleExample:)%0a\ No newline at end of file%0a---%0a> (:input form:)%0a> (:input text name Proposition size=n:)%0a> (:input submit name Ajoutez:)%0a> (:input end:)%0a> %0a> (:fox cbox put=below mark=!!Comments template=Site.FoxCommentTemplate:)%0a> || Heading:||(:input text heading size=60:)%0a> || ||'''Your Message''' ||%0a> || ||(:input textarea comment cols=60 rows=6:) ||%0a> || Author:||(:input text author value='{$Author}' :) (:input submit post Enter:) ||%0a> (:foxend cbox:)%0a\ No newline at end of file%0a
+host:1621511951=::1
+author:1621436054=
+diff:1621436054:1621433357:=9,14c9,14%0a%3c (:fox cbox put=below mark=!!Comments template=Site.FoxCommentTemplate:)%0a%3c || Heading:||(:input text heading size=60:)%0a%3c || ||'''Your Message''' ||%0a%3c || ||(:input textarea comment cols=60 rows=6:) ||%0a%3c || Author:||(:input text author value='{$Author}' :) (:input submit post Enter:) ||%0a%3c (:foxend cbox:)%0a\ No newline at end of file%0a---%0a> %0a> (:html:)%0a> %3cscript language="PHP">%0a> echo test;%0a> %3c/script>%0a> (:htmlend:)%0a\ No newline at end of file%0a
+host:1621436054=::1
+author:1621433357=
+diff:1621433357:1621433299:=11,13c11%0a%3c %3cscript language="PHP">%0a%3c echo test;%0a%3c %3c/script>%0a---%0a> %3ch1>test%3c/h1>%0a
+host:1621433357=::1
+author:1621433299=
+diff:1621433299:1621433232:=0a1%0a> %0a4c5%0a%3c (:input form:)%0a---%0a> %25center%25(:input form:)%0a7,12c8%0a%3c (:input end:)%0a%3c %0a%3c %0a%3c (:html:)%0a%3c %3ch1>test%3c/h1>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a---%0a> (:input end:)%0a\ No newline at end of file%0a
+host:1621433299=::1
+author:1621433232=
+diff:1621433232:1621433190:=1a2%0a> %0a5c6%0a%3c %25center%25(:input form:)%0a---%0a> %25center(:input form:)%0a8c9%0a%3c (:input end:)%0a\ No newline at end of file%0a---%0a> (:input end:)%25%0a\ No newline at end of file%0a
+host:1621433232=::1
+author:1621433190=
+diff:1621433190:1621433181:=0a1%0a> %0a
+host:1621433190=::1
+author:1621433181=
+diff:1621433181:1621433159:=1,3d0%0a%3c %0a%3c %0a%3c %0a7c4%0a%3c %25center(:input form:)%0a---%0a> (:input form:)%0a10c7%0a%3c (:input end:)%25%0a\ No newline at end of file%0a---%0a> (:input end:)%0a\ No newline at end of file%0a
+host:1621433181=::1
+author:1621433159=
+diff:1621433159:1621433154:=2,3d1%0a%3c %0a%3c %0a
+host:1621433159=::1
+author:1621433154=
+diff:1621433154:1621433109:=2c2%0a%3c (:input form:)%0a---%0a> %0a4,5c4%0a%3c (:input submit name Ajoutez:)%0a%3c (:input end:)%0a\ No newline at end of file%0a---%0a> (:input submit name Ajoutez:)%0a\ No newline at end of file%0a
+host:1621433154=::1
+author:1621433109=
+diff:1621433109:1621433098:=3c3%0a%3c (:input text name Proposition size=n:)%0a---%0a> (:input text name Nouvelle proposition size=n:)%0a
+host:1621433109=::1
+author:1621433098=
+diff:1621433098:1621433084:=4c4%0a%3c (:input submit name Ajoutez:)%0a\ No newline at end of file%0a---%0a> (:input submit name value:)%0a\ No newline at end of file%0a
+host:1621433098=::1
+author:1621433084=
+diff:1621433084:1621433053:=3,4c3%0a%3c (:input text name Nouvelle proposition size=n:)%0a%3c (:input submit name value:)%0a\ No newline at end of file%0a---%0a> (:input text name Nouvelle proposition size=n:)%0a\ No newline at end of file%0a
+host:1621433084=::1
+author:1621433053=
+diff:1621433053:1621433038:=3c3%0a%3c (:input text name Nouvelle proposition size=n:)%0a\ No newline at end of file%0a---%0a> (:input text name value size=n:)%0a\ No newline at end of file%0a
+host:1621433053=::1
+author:1621433038=
+diff:1621433038:1621433017:=1c1%0a%3c %25font-size=40px%25 Titre%0a---%0a> %25font-size=40px%25 Ajoutez Proposition%0a
+host:1621433038=::1
+author:1621433017=
+diff:1621433017:1621432980:=1c1%0a%3c %25font-size=40px%25 Ajoutez Proposition%0a---%0a> %0a
+host:1621433017=::1
+author:1621432980=
+diff:1621432980:1621432968:=0a1%0a> %0a
+host:1621432980=::1
+author:1621432968=
+diff:1621432968:1621432950:=1,3d0%0a%3c %0a%3c %0a%3c %0a
+host:1621432968=::1
+author:1621432950=
+diff:1621432950:1621432950:=1d0%0a%3c (:input text name value size=n:)%0a\ No newline at end of file%0a
+host:1621432950=::1

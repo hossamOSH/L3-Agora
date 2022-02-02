@@ -1,0 +1,18 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=
+charset=ISO-8859-1
+csum=
+ctime=1621515846
+host=::1
+name=Main.AccueilEditez
+rev=2
+targets=
+text=
+time=1621603225
+author:1621603225=
+diff:1621603225:1621515846:=
+host:1621603225=::1
+author:1621515846=zddz
+diff:1621515846:1621515846:=
+host:1621515846=::1

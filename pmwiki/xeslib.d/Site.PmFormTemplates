@@ -1,0 +1,12 @@
+version=pmwiki-2.2.0-beta47 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.2) Gecko/20061023 SUSE/2.0.0.2-1.1 Firefox/2.0.0.2
+author=Pm
+charset=ISO-8859-1
+csum=
+ctime=1179491752
+host=76.183.97.54
+name=Site.PmFormTemplates
+rev=15
+targets=
+text=!! #mailform%0a%0aThis form is displayed when [@form=#mailform@] is displayed by a pmform target.%0a%0a[@%0a[[#mailform]]%0a(:template default successpage='' :)%0a(:input pmform target={$$target} successpage="{$$successpage}" :)%0a(:input default request=1:)%0a(:messages:)%0a||width='' %0a||$[Your address]: ||(:input text from size=30:) ||%0a||$[Subject]:      ||(:input text subject size=30:) ||%0a$[Message]:\\%0a(:input textarea text rows=15 cols=60:)\\%0a(:input submit name=post value='$[Send]':)%0a(:input end:)%0a[[#mailformend]]%0a@]%0a%0a!! #mailpost%0a%0aThis specifies the message to be sent when [@fmt=#mailpost@] is given by a pmform target.  It verifies the existence of a from address, subject, and message text.%0a%0a[@%0a[[#mailpost]]%0a(:template require from errmsg="$[Missing 'from' address]" :)%0a(:template require subject errmsg="$[Missing message subject]" :)%0a(:template require text errmsg="$[Message text required]" :) %0a{$$text}%0a%0a==========%0aSent via PmForm at {$$PageUrl}%0a[[#mailpostend]] %0a@]%0a%0a%0a!! #commentform%0a%0a[@%0a[[#commentform]]%0a(:input pmform target=comments:)%0a(:input default request=1:)%0a(:input default author "{$Author}" :)%0a'''Post a comment:'''%0a(:messages:)%0aName: (:input text author:) \\%0aComments: \\%0a(:input textarea text rows=10 cols=40:) \\%0a(:input submit name=post value="$[Post]" :)%0a(:input end:)%0a[[#commentformend]]%0a@]%0a%0a!! #talkpost%0a%0a[@%0a[[#talkpost]]%0a(:template defaults where=above :) %0a(:template require author errmsg="$[Missing name]":)%0a>>talkpost%3c%3c%0a-> Posted by {$$author} on {$$CurrentTime}%0a{$$text}%0a>>%3c%3c%0a%0a[[#talkpostend]]%0a@]%0a
+time=1179722724

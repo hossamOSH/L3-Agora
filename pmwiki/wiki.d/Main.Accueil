@@ -1,0 +1,1098 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=
+charset=ISO-8859-1
+csum=
+ctime=1621429973
+host=::1
+name=Main.Accueil
+rev=362
+targets=Main.AjoutezNouvelleProposition
+text=%25center%25 %25font-size=40px%25 Département Informatique%0a%0a%25center%25 %25font-size=30px%25 Groupe de travail :  %25font-size=30px blue%25 Master%0a%0a[[Ajoutez Nouvelle Proposition]]%0a%0a(:adl append name:)%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a
+time=1621881807
+author:1621881807=
+diff:1621881807:1621881804:=6a7%0a> #[[this is a test]]: (:adl delete 1621881804a62137b0 Main.Accueil:) [[Editez?passedvalue=this is a test]]%0a8d8%0a%3c %0a
+host:1621881807=::1
+author:1621881804=
+diff:1621881804:1621881721:=7d6%0a%3c #[[this is a test]]: (:adl delete 1621881804a62137b0 Main.Accueil:) [[Editez?passedvalue=this is a test]]%0a
+host:1621881804=::1
+author:1621881721=
+diff:1621881721:1621881713:=6a7%0a> #[[this is a test]]: (:adl delete 1621881713a78491b0 Main.Accueil:) [[Editez?passedvalue=this is a test]]%0a8d8%0a%3c %0a
+host:1621881721=::1
+author:1621881713=
+diff:1621881713:1621881215:=7d6%0a%3c #[[this is a test]]: (:adl delete 1621881713a78491b0 Main.Accueil:) [[Editez?passedvalue=this is a test]]%0a
+host:1621881713=::1
+author:1621881215=
+diff:1621881215:1621881209:=6a7%0a> #[[this is a test]]: (:adl delete 1621881209a47699b0 Main.Accueil:) [[Editez?passedvalue=this is a test]]%0a8d8%0a%3c %0a
+host:1621881215=::1
+author:1621881209=
+diff:1621881209:1621881191:=7d6%0a%3c #[[this is a test]]: (:adl delete 1621881209a47699b0 Main.Accueil:) [[Editez?passedvalue=this is a test]]%0a
+host:1621881209=::1
+author:1621881191=
+diff:1621881191:1621881181:=6a7,9%0a> [[Editez?passedvalue=this is a test]]%0a> [[Editez?passedvalue=this is a test]]%0a> [[Editez?passedvalue=dzaazddza]]%0a
+host:1621881191=::1
+author:1621881181=
+diff:1621881181:1621868190:=8a9%0a> #[[dzaazddza]]: (:adl delete 1621868190a97068b0 Main.Accueil:)%0a11d11%0a%3c %0a
+host:1621881181=::1
+author:1621868190=
+diff:1621868190:1621868184:=9,10d8%0a%3c #[[dzaazddza]]: (:adl delete 1621868190a97068b0 Main.Accueil:)%0a%3c [[Editez?passedvalue=dzaazddza]]%0a
+host:1621868190=::1
+author:1621868184=
+diff:1621868184:1621868181:=7a8%0a> #[[this is a test]]: (:adl delete 1621868181a59854b0 Main.Accueil:)%0a10d10%0a%3c %0a
+host:1621868184=::1
+author:1621868181=
+diff:1621868181:1621868162:=7,8d6%0a%3c [[Editez?passedvalue=this is a test]]%0a%3c #[[this is a test]]: (:adl delete 1621868181a59854b0 Main.Accueil:)%0a
+host:1621868181=::1
+author:1621868162=
+diff:1621868162:1621868158:=6a7%0a> #[[this is a test]]: (:adl delete 1621868159a88172b0 Main.Accueil:):)%0a9d9%0a%3c %0a
+host:1621868162=::1
+author:1621868158=
+diff:1621868158:1621868118:=7,8d6%0a%3c #[[this is a test]]: (:adl delete 1621868159a88172b0 Main.Accueil:):)%0a%3c [[Editez?passedvalue=this is a test]]%0a
+host:1621868158=::1
+author:1621868118=
+diff:1621868118:1621868115:=6a7%0a> [[Editez?passedvalue=this is a test]]: (:adl delete 1621868116a78031b0 Main.Accueil:)%0a8d8%0a%3c %0a
+host:1621868118=::1
+author:1621868115=
+diff:1621868115:1621868057:=7d6%0a%3c [[Editez?passedvalue=this is a test]]: (:adl delete 1621868116a78031b0 Main.Accueil:)%0a
+host:1621868115=::1
+author:1621868057=
+diff:1621868057:1621868054:=6a7%0a> #[[this is a test]]: (:adl delete 1621868054a48703b0 Main.Accueil:)%0a8d8%0a%3c %0a
+host:1621868057=::1
+author:1621868054=
+diff:1621868054:1621868019:=7d6%0a%3c #[[this is a test]]: (:adl delete 1621868054a48703b0 Main.Accueil:)%0a
+host:1621868054=::1
+author:1621868019=
+diff:1621868019:1621868004:=6c6,7%0a%3c %0a---%0a> [[Editez?passedvalue=this is a test]]%0a> &quot;#[[this is a test]]&quot;: (:adl delete%0a
+host:1621868019=::1
+author:1621868004=
+diff:1621868004:1621867895:=7d6%0a%3c &quot;#[[this is a test]]&quot;: (:adl delete%0a
+host:1621868004=::1
+author:1621867895=
+diff:1621867895:1621867848:=6d5%0a%3c [[Editez?passedvalue=this is a test]]%0a
+host:1621867895=::1
+author:1621867848=
+diff:1621867848:1621867845:=5a6%0a> #[[this is a test]]:(:adl delete 1621867846a93757b0 Main.Accueil:)||[[Editez?passedvalue=this is a test]]%0a7d7%0a%3c %0a
+host:1621867848=::1
+author:1621867845=
+diff:1621867845:1621867830:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621867846a93757b0 Main.Accueil:)||[[Editez?passedvalue=this is a test]]%0a
+host:1621867845=::1
+author:1621867830=
+diff:1621867830:1621867825:=5a6%0a> #[[this is a test]]:(:adl delete 1621867826a31705b0 Main.Accueil:)||[[Editez?passedvalue=this is a test|+]]%0a7d7%0a%3c %0a
+host:1621867830=::1
+author:1621867825=
+diff:1621867825:1621867568:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621867826a31705b0 Main.Accueil:)||[[Editez?passedvalue=this is a test|+]]%0a
+host:1621867825=::1
+author:1621867568=
+diff:1621867568:1621867560:=5a6%0a> #[[this is a test|+]]:(:adl delete 1621867560a1544b0 Main.Accueil:)||[[Editez?passedvalue=this is a test|+]]%0a7d7%0a%3c %0a
+host:1621867568=::1
+author:1621867560=
+diff:1621867560:1621867533:=6d5%0a%3c #[[this is a test|+]]:(:adl delete 1621867560a1544b0 Main.Accueil:)||[[Editez?passedvalue=this is a test|+]]%0a
+host:1621867560=::1
+author:1621867533=
+diff:1621867533:1621867526:=7c7%0a%3c %0a---%0a> (:adl form name:)%0a
+host:1621867533=::1
+author:1621867526=
+diff:1621867526:1621867515:=5a6%0a> #[[dzaazddza|+]]:(:adl delete 1621867516a79477b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza|+]]%0a8d8%0a%3c %0a
+host:1621867526=::1
+author:1621867515=
+diff:1621867515:1621867508:=6d5%0a%3c #[[dzaazddza|+]]:(:adl delete 1621867516a79477b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza|+]]%0a
+host:1621867515=::1
+author:1621867508=
+diff:1621867508:1621866880:=7d6%0a%3c (:adl form name:)%0a
+host:1621867508=::1
+author:1621866880=
+diff:1621866880:1621866870:=5a6%0a> #[[this+is+a+test|+]]:(:adl delete 1621866871a80680b0 Main.Accueil:)[[Editez?passedvalue=this+is+a+test|+]]%0a7d7%0a%3c %0a
+host:1621866880=::1
+author:1621866870=
+diff:1621866870:1621866817:=6d5%0a%3c #[[this+is+a+test|+]]:(:adl delete 1621866871a80680b0 Main.Accueil:)[[Editez?passedvalue=this+is+a+test|+]]%0a
+host:1621866870=::1
+author:1621866817=
+diff:1621866817:1621866812:=5a6%0a> #[[this is a test]]:(:adl delete 1621866813a70297b0 Main.Accueil:)[[Editez?passedvalue=this is a test|+]]%0a7d7%0a%3c %0a
+host:1621866817=::1
+author:1621866812=
+diff:1621866812:1621866796:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621866813a70297b0 Main.Accueil:)[[Editez?passedvalue=this is a test|+]]%0a
+host:1621866812=::1
+author:1621866796=
+diff:1621866796:1621866785:=5a6%0a> #[[this is a test|+]]:(:adl delete 1621866786a34527b0 Main.Accueil:)[[Editez?passedvalue=this is a test|+]]%0a7d7%0a%3c %0a
+host:1621866796=::1
+author:1621866785=
+diff:1621866785:1621866767:=6d5%0a%3c #[[this is a test|+]]:(:adl delete 1621866786a34527b0 Main.Accueil:)[[Editez?passedvalue=this is a test|+]]%0a
+host:1621866785=::1
+author:1621866767=
+diff:1621866767:1621866582:=5a6%0a> #[[this+is+a+test]]:(:adl delete 1621866492a83445b0 Main.Accueil:)[[Editez?passedvalue=this+is+a+test|+]]%0a7d7%0a%3c %0a
+host:1621866767=::1
+author:1621866582=
+diff:1621866582:1621866559:=10c10,14%0a%3c %0a---%0a>  Markup('[[|+', '%3c[[|',%0a>     "/(?>\\[\\[([^|\\]]+))\\|\\s*\\+\\s*]]/e",%0a>     "Keep(MakeLink(\$pagename, PSS('$1'),%0a>          PageVar(MakePageName(\$pagename,PSS('$1')), '\$Titlespaced')),%0a>          'L')");%0a
+host:1621866582=::1
+author:1621866559=
+diff:1621866559:1621866492:=10,14c10%0a%3c  Markup('[[|+', '%3c[[|',%0a%3c     "/(?>\\[\\[([^|\\]]+))\\|\\s*\\+\\s*]]/e",%0a%3c     "Keep(MakeLink(\$pagename, PSS('$1'),%0a%3c          PageVar(MakePageName(\$pagename,PSS('$1')), '\$Titlespaced')),%0a%3c          'L')");%0a---%0a> %0a
+host:1621866559=::1
+author:1621866492=
+diff:1621866492:1621866481:=6d5%0a%3c #[[this+is+a+test]]:(:adl delete 1621866492a83445b0 Main.Accueil:)[[Editez?passedvalue=this+is+a+test|+]]%0a
+host:1621866492=::1
+author:1621866481=
+diff:1621866481:1621866471:=5a6%0a> #[[dzaazddza]]:(:adl delete 1621866471a33856b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza|+]]%0a7d7%0a%3c %0a
+host:1621866481=::1
+author:1621866471=
+diff:1621866471:1621866466:=6d5%0a%3c #[[dzaazddza]]:(:adl delete 1621866471a33856b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza|+]]%0a
+host:1621866471=::1
+author:1621866466=
+diff:1621866466:1621866463:=5a6%0a> #[[this is a test]]:(:adl delete 1621866464a87635b0 Main.Accueil:)[[Editez?passedvalue=this is a test|+]]%0a7d7%0a%3c %0a
+host:1621866466=::1
+author:1621866463=
+diff:1621866463:1621866425:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621866464a87635b0 Main.Accueil:)[[Editez?passedvalue=this is a test|+]]%0a
+host:1621866463=::1
+author:1621866425=
+diff:1621866425:1621866417:=6c6%0a%3c (:adl append name:)%0a---%0a> %0a
+host:1621866425=::1
+author:1621866417=
+diff:1621866417:1621866313:=8,11c8%0a%3c %0a%3c %0a%3c %0a%3c %0a---%0a> (:pagelist fmt=#(:adl append name:):)%0a
+host:1621866417=::1
+author:1621866313=
+diff:1621866313:1621866297:=8,10c8,10%0a%3c (:pagelist fmt=#(:adl append name:):)%0a%3c %0a%3c %0a---%0a> (:pagelist fmt=#title:)%0a> %0a> (:adl append name:)%0a
+host:1621866313=::1
+author:1621866297=
+diff:1621866297:1621866168:=8c8%0a%3c (:pagelist fmt=#title:)%0a---%0a> %0a
+host:1621866297=::1
+author:1621866168=
+diff:1621866168:1621866165:=9a10%0a> #[[this is a test]]:(:adl delete 1621866165a67822b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a11d11%0a%3c %0a
+host:1621866168=::1
+author:1621866165=
+diff:1621866165:1621866070:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621866165a67822b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a
+host:1621866165=::1
+author:1621866070=
+diff:1621866070:1621866067:=9a10%0a> #[[this is a test]]:(:adl delete 1621866068a95282b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a11d11%0a%3c %0a
+host:1621866070=::1
+author:1621866067=
+diff:1621866067:1621865734:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621866068a95282b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a
+host:1621866067=::1
+author:1621865734=
+diff:1621865734:1621865730:=9a10%0a> #[[]]:(:adl delete 1621865731a76560b0 Main.Accueil:)[[Editez?passedvalue=]]%0a11d11%0a%3c %0a
+host:1621865734=::1
+author:1621865730=
+diff:1621865730:1621865699:=10d9%0a%3c #[[]]:(:adl delete 1621865731a76560b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621865730=::1
+author:1621865699=
+diff:1621865699:1621865622:=9a10%0a> #[[here]]:(:adl delete 1621865623a16537b0 Main.Accueil:)[[Editez?passedvalue=here]]%0a11d11%0a%3c %0a
+host:1621865699=::1
+author:1621865622=
+diff:1621865622:1621865608:=10d9%0a%3c #[[here]]:(:adl delete 1621865623a16537b0 Main.Accueil:)[[Editez?passedvalue=here]]%0a
+host:1621865622=::1
+author:1621865608=
+diff:1621865608:1621865600:=9a10%0a> #[[dzaazddza]]:(:adl delete 1621865600a39145b0 Main.Accueil:)[[Editez?passedvalue=]]%0a11d11%0a%3c %0a
+host:1621865608=::1
+author:1621865600=
+diff:1621865600:1621865590:=10d9%0a%3c #[[dzaazddza]]:(:adl delete 1621865600a39145b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621865600=::1
+author:1621865590=
+diff:1621865590:1621865580:=9a10%0a> #[[this is a test]]:(:adl delete 1621865580a72516b0 Main.Accueil:)[[Editez?passedvalue=]]%0a11d11%0a%3c %0a
+host:1621865590=::1
+author:1621865580=
+diff:1621865580:1621865468:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621865580a72516b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621865580=::1
+author:1621865468=
+diff:1621865468:1621865465:=9a10%0a> #[[this is a test]]:(:adl delete 1621865466a84879b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a11d11%0a%3c %0a
+host:1621865468=::1
+author:1621865465=
+diff:1621865465:1621865408:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621865466a84879b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a
+host:1621865465=::1
+author:1621865408=
+diff:1621865408:1621865404:=9a10%0a> #[[this is a test]]:(:adl delete 1621865405a61731b0 Main.Accueil:)[[Editez?passedvalue={[description]}]]%0a11d11%0a%3c %0a
+host:1621865408=::1
+author:1621865404=
+diff:1621865404:1621865351:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621865405a61731b0 Main.Accueil:)[[Editez?passedvalue={[description]}]]%0a
+host:1621865404=::1
+author:1621865351=
+diff:1621865351:1621865344:=9c9%0a%3c %0a---%0a> &quot;#[[this is a test]]:(:adl delete%0a
+host:1621865351=::1
+author:1621865344=
+diff:1621865344:1621865230:=9d8%0a%3c &quot;#[[this is a test]]:(:adl delete%0a
+host:1621865344=::1
+author:1621865230=
+diff:1621865230:1621865228:=8a9%0a> #[[this is a test]]:(:adl delete 1621865209a93894b0 Main.Accueil:)[[Editez?passedvalue={[=description=]}]]%0a10d10%0a%3c %0a
+host:1621865230=::1
+author:1621865228=
+diff:1621865228:1621865208:=
+host:1621865228=::1
+author:1621865208=
+diff:1621865208:1621865185:=9d8%0a%3c #[[this is a test]]:(:adl delete 1621865209a93894b0 Main.Accueil:)[[Editez?passedvalue={[=description=]}]]%0a
+host:1621865208=::1
+author:1621865185=
+diff:1621865185:1621865180:=8a9%0a> #[[{[=description=]}]]:(:adl delete 1621865181a17352b0 Main.Accueil:)[[Editez?passedvalue={[=description=]}]]%0a10d10%0a%3c %0a
+host:1621865185=::1
+author:1621865180=
+diff:1621865180:1621865176:=9d8%0a%3c #[[{[=description=]}]]:(:adl delete 1621865181a17352b0 Main.Accueil:)[[Editez?passedvalue={[=description=]}]]%0a
+host:1621865180=::1
+author:1621865176=
+diff:1621865176:1621865161:=7,9c7,12%0a%3c %0a%3c %0a%3c (:adl append name:)%0a---%0a> {$name}%0a> %0a> %0a> {name}%0a> %0a> %0a
+host:1621865176=::1
+author:1621865161=
+diff:1621865161:1621864889:=
+host:1621865161=::1
+author:1621864889=
+diff:1621864889:1621863379:=7,11c7,17%0a%3c {$name}%0a%3c %0a%3c %0a%3c {name}%0a%3c %0a---%0a> %0a> [[#datapost]]%0a> (:template defaults savevars=$:name,$:email :)%0a> [[#datapostend]]%0a> %0a> (:adl append name:)%0a> %0a> %0a> (:pmform savedata:)%0a> %0a> {$:name} can be reached at {$:email}.%0a
+host:1621864889=::1
+author:1621863379=
+diff:1621863379:1621863374:=11a12%0a> #[[heelo+world]]:(:adl delete 1621863375a48920b0 Main.Accueil:)[[Editez?passedvalue=heelo+world]]%0a18d18%0a%3c %0a
+host:1621863379=::1
+author:1621863374=
+diff:1621863374:1621862702:=12d11%0a%3c #[[heelo+world]]:(:adl delete 1621863375a48920b0 Main.Accueil:)[[Editez?passedvalue=heelo+world]]%0a
+host:1621863374=::1
+author:1621862702=
+diff:1621862702:1621712488:=17c17%0a%3c {$:name} can be reached at {$:email}.%0a---%0a> %0a
+host:1621862702=::1
+author:1621712488=
+diff:1621712488:1621712401:=15c15%0a%3c (:pmform savedata:)%0a---%0a> %0a
+host:1621712488=::1
+author:1621712401=
+diff:1621712401:1621691236:=8,10c8%0a%3c [[#datapost]]%0a%3c (:template defaults savevars=$:name,$:email :)%0a%3c [[#datapostend]]%0a---%0a> %0a
+host:1621712401=::1
+author:1621691236=
+diff:1621691236:1621691234:=9a10%0a> #[[this is a test]]:(:adl delete 1621691234a32059b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a11d11%0a%3c %0a
+host:1621691236=::1
+author:1621691234=
+diff:1621691234:1621609789:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621691234a32059b0 Main.Accueil:)[[Editez?passedvalue=this is a test]]%0a
+host:1621691234=::1
+author:1621609789=
+diff:1621609789:1621609782:=9c9%0a%3c %0a---%0a> &quot;#[[ceci est un test]]:(:adl delete%0a
+host:1621609789=::1
+author:1621609782=
+diff:1621609782:1621609745:=9d8%0a%3c &quot;#[[ceci est un test]]:(:adl delete%0a
+host:1621609782=::1
+author:1621609745=
+diff:1621609745:1621609738:=8a9%0a> &quot;#[[this is a test]]:(:adl delete%0a
+host:1621609745=::1
+author:1621609738=
+diff:1621609738:1621609718:=9d8%0a%3c &quot;#[[this is a test]]:(:adl delete%0a
+host:1621609738=::1
+author:1621609718=
+diff:1621609718:1621609710:=8a9%0a> #[[dzaazddza]]:(:adl delete 1621609710a64371b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza]]%0a10d10%0a%3c %0a
+host:1621609718=::1
+author:1621609710=
+diff:1621609710:1621609691:=9d8%0a%3c #[[dzaazddza]]:(:adl delete 1621609710a64371b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza]]%0a
+host:1621609710=::1
+author:1621609691=
+diff:1621609691:1621609684:=8c8%0a%3c %0a---%0a> &quot;#[[this is a test]]:(:adl delete%0a
+host:1621609691=::1
+author:1621609684=
+diff:1621609684:1621609665:=8d7%0a%3c &quot;#[[this is a test]]:(:adl delete%0a
+host:1621609684=::1
+author:1621609665=
+diff:1621609665:1621609660:=7a8%0a> #[[ceci est un test]]:(:adl delete 1621609660a41791b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]]%0a9d9%0a%3c %0a
+host:1621609665=::1
+author:1621609660=
+diff:1621609660:1621609142:=8d7%0a%3c #[[ceci est un test]]:(:adl delete 1621609660a41791b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]]%0a
+host:1621609660=::1
+author:1621609142=
+diff:1621609142:1621609134:=7a8%0a> #[[this is a test]]:(:adl delete 1621609135a35452b0 Main.Accueil:)[[Editez?passedvalue=]]%0a9d9%0a%3c %0a
+host:1621609142=::1
+author:1621609134=
+diff:1621609134:1621609033:=8d7%0a%3c #[[this is a test]]:(:adl delete 1621609135a35452b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621609134=::1
+author:1621609033=
+diff:1621609033:1621609031:=7a8%0a> #[[]]:(:adl delete 1621609031a18698b0 Main.Accueil:)[[Editez?passedvalue=]]%0a9d9%0a%3c %0a
+host:1621609033=::1
+author:1621609031=
+diff:1621609031:1621608992:=8d7%0a%3c #[[]]:(:adl delete 1621609031a18698b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621609031=::1
+author:1621608992=
+diff:1621608992:1621608990:=7a8%0a> #[[]]:(:adl delete 1621608990a53876b0 Main.Accueil:)[[Editez?passedvalue=]]%0a9d9%0a%3c %0a
+host:1621608992=::1
+author:1621608990=
+diff:1621608990:1621608983:=8d7%0a%3c #[[]]:(:adl delete 1621608990a53876b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608990=::1
+author:1621608983=
+diff:1621608983:1621608971:=8,9c8,9%0a%3c (:adl append name:)%0a%3c %0a---%0a> (:adl prepend name:)%0a> &quot;#[[&quot;&quot;]]:(:adl delete%0a
+host:1621608983=::1
+author:1621608971=
+diff:1621608971:1621608969:=8a9%0a> #[[]]:(:adl delete 1621608970a59647b0 Main.Accueil:)[[Editez?passedvalue=]]%0a10d10%0a%3c %0a
+host:1621608971=::1
+author:1621608969=
+diff:1621608969:1621608949:=9d8%0a%3c #[[]]:(:adl delete 1621608970a59647b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608969=::1
+author:1621608949=
+diff:1621608949:1621608749:=9d8%0a%3c &quot;#[[&quot;&quot;]]:(:adl delete%0a
+host:1621608949=::1
+author:1621608749=
+diff:1621608749:1621608747:=9c9%0a%3c %0a---%0a> #[[]]:(:adl delete 1621608747a67899b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608749=::1
+author:1621608747=
+diff:1621608747:1621608742:=9d8%0a%3c #[[]]:(:adl delete 1621608747a67899b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608747=::1
+author:1621608742=
+diff:1621608742:1621608729:=9c9%0a%3c %0a---%0a> #[[]]:(:adl delete 1621608729a38550b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608742=::1
+author:1621608729=
+diff:1621608729:1621608724:=9d8%0a%3c #[[]]:(:adl delete 1621608729a38550b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608729=::1
+author:1621608724=
+diff:1621608724:1621608722:=9c9%0a%3c %0a---%0a> #[[]]:(:adl delete 1621608713a17569b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608724=::1
+author:1621608722=
+diff:1621608722:1621608712:=10c10%0a%3c %0a---%0a> #[[ceci est un test]]:(:adl delete 1621608415a79724b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608722=::1
+author:1621608712=
+diff:1621608712:1621608414:=9d8%0a%3c #[[]]:(:adl delete 1621608713a17569b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608712=::1
+author:1621608414=
+diff:1621608414:1621608359:=9d8%0a%3c #[[ceci est un test]]:(:adl delete 1621608415a79724b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608414=::1
+author:1621608359=
+diff:1621608359:1621608351:=9c9%0a%3c %0a---%0a> #[[ceci est un test]]:(:adl delete 1621608351a84204b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608359=::1
+author:1621608351=
+diff:1621608351:1621608220:=9d8%0a%3c #[[ceci est un test]]:(:adl delete 1621608351a84204b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608351=::1
+author:1621608220=
+diff:1621608220:1621608204:=9c9%0a%3c %0a---%0a> #[[ceci est un test]]:(:adl delete 1621608205a7772b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]]%0a
+host:1621608220=::1
+author:1621608204=
+diff:1621608204:1621608149:=9d8%0a%3c #[[ceci est un test]]:(:adl delete 1621608205a7772b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]]%0a
+host:1621608204=::1
+author:1621608149=
+diff:1621608149:1621608145:=9c9%0a%3c %0a---%0a> #[[ceci est un test]]:(:adl delete 1621608146a73468b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608149=::1
+author:1621608145=
+diff:1621608145:1621608131:=9d8%0a%3c #[[ceci est un test]]:(:adl delete 1621608146a73468b0 Main.Accueil:)[[Editez?passedvalue=]]%0a
+host:1621608145=::1
+author:1621608131=
+diff:1621608131:1621608087:=9c9%0a%3c %0a---%0a> #[[ceci est un test]]:(:adl delete 1621608087a97663b0 Main.Accueil:)[[Editez?passedvalue=|Editez]]%0a
+host:1621608131=::1
+author:1621608087=
+diff:1621608087:1621607982:=9d8%0a%3c #[[ceci est un test]]:(:adl delete 1621608087a97663b0 Main.Accueil:)[[Editez?passedvalue=|Editez]]%0a
+host:1621608087=::1
+author:1621607982=
+diff:1621607982:1621607981:=9d8%0a%3c %0a
+host:1621607982=::1
+author:1621607981=
+diff:1621607981:1621607980:=9c9%0a%3c %0a---%0a> #[[this is a test]]:(:adl delete 1621607955a91147b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]]%0a
+host:1621607981=::1
+author:1621607980=
+diff:1621607980:1621607978:=10c10%0a%3c %0a---%0a> #[[ceci est un test]]:(:adl delete 1621607949a98874b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test|Editez]]%0a
+host:1621607980=::1
+author:1621607978=
+diff:1621607978:1621607976:=8a9%0a> #[[testestrezrz]]:(:adl delete 1621607974a61044b0 Main.Accueil:)[[Editez?passedvalue=testestrezrz|Editez]]%0a11d11%0a%3c %0a
+host:1621607978=::1
+author:1621607976=
+diff:1621607976:1621607974:=9a10%0a> #[[dzaazddza]]:(:adl delete 1621607960a37912b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza|Editez]]%0a12d12%0a%3c %0a
+host:1621607976=::1
+author:1621607974=
+diff:1621607974:1621607959:=9d8%0a%3c #[[testestrezrz]]:(:adl delete 1621607974a61044b0 Main.Accueil:)[[Editez?passedvalue=testestrezrz|Editez]]%0a
+host:1621607974=::1
+author:1621607959=
+diff:1621607959:1621607954:=9d8%0a%3c #[[dzaazddza]]:(:adl delete 1621607960a37912b0 Main.Accueil:)[[Editez?passedvalue=dzaazddza|Editez]]%0a
+host:1621607959=::1
+author:1621607954=
+diff:1621607954:1621607949:=9d8%0a%3c #[[this is a test]]:(:adl delete 1621607955a91147b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]]%0a
+host:1621607954=::1
+author:1621607949=
+diff:1621607949:1621607944:=9d8%0a%3c #[[ceci est un test]]:(:adl delete 1621607949a98874b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test|Editez]]%0a
+host:1621607949=::1
+author:1621607944=
+diff:1621607944:1621607924:=7,8c7,8%0a%3c %0a%3c (:adl prepend name:)%0a---%0a> #[[this is a test]]:(:adl delete 1621607915a43118b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]]%0a> (:adl append name:)%0a
+host:1621607944=::1
+author:1621607924=
+diff:1621607924:1621607915:=
+host:1621607924=::1
+author:1621607915=
+diff:1621607915:1621606360:=7d6%0a%3c #[[this is a test]]:(:adl delete 1621607915a43118b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]]%0a
+host:1621607915=::1
+author:1621606360=
+diff:1621606360:1621606358:=6a7%0a> [[testt]]:(:adl delete 1621606342a97309b0 Main.Accueil:)[[Editez?passedvalue=testt|Editez]]%0a8d8%0a%3c %0a
+host:1621606360=::1
+author:1621606358=
+diff:1621606358:1621606350:=7a8%0a> [[another test]]:(:adl delete 1621606351a65314b0 Main.Accueil:)[[Editez?passedvalue=another test|Editez]]%0a9d9%0a%3c %0a
+host:1621606358=::1
+author:1621606350=
+diff:1621606350:1621606341:=8d7%0a%3c [[another test]]:(:adl delete 1621606351a65314b0 Main.Accueil:)[[Editez?passedvalue=another test|Editez]]%0a
+host:1621606350=::1
+author:1621606341=
+diff:1621606341:1621606318:=7d6%0a%3c [[testt]]:(:adl delete 1621606342a97309b0 Main.Accueil:)[[Editez?passedvalue=testt|Editez]]%0a
+host:1621606341=::1
+author:1621606318=
+diff:1621606318:1621606316:=6a7%0a> #[[ceci est un test]]:(:adl delete 1621606205a9820b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test|Editez]]%0a8d8%0a%3c %0a
+host:1621606318=::1
+author:1621606316=
+diff:1621606316:1621606313:=6a7%0a> #[[leret]]:(:adl delete 1621606197a17205b0 Main.Accueil:)[[Editez?passedvalue=leret|Editez]]%0a9d9%0a%3c %0a
+host:1621606316=::1
+author:1621606313=
+diff:1621606313:1621606307:=
+host:1621606313=::1
+author:1621606307=
+diff:1621606307:1621606248:=
+host:1621606307=::1
+author:1621606248=
+diff:1621606248:1621606205:=
+host:1621606248=::1
+author:1621606205=
+diff:1621606205:1621606197:=8d7%0a%3c #[[ceci est un test]]:(:adl delete 1621606205a9820b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test|Editez]]%0a
+host:1621606205=::1
+author:1621606197=
+diff:1621606197:1621606190:=7d6%0a%3c #[[leret]]:(:adl delete 1621606197a17205b0 Main.Accueil:)[[Editez?passedvalue=leret|Editez]]%0a
+host:1621606197=::1
+author:1621606190=
+diff:1621606190:1621606188:=6a7%0a> #[[testre]]:(:adl delete 1621606049a38626b0 Main.Accueil:)[[Editez?passedvalue=testre|Editez]]%0a8d8%0a%3c %0a
+host:1621606190=::1
+author:1621606188=
+diff:1621606188:1621606049:=6a7%0a> #[[this is a test]]:(:adl delete 1621606044a71060b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]]%0a9d9%0a%3c %0a
+host:1621606188=::1
+author:1621606049=
+diff:1621606049:1621606043:=8d7%0a%3c #[[testre]]:(:adl delete 1621606049a38626b0 Main.Accueil:)[[Editez?passedvalue=testre|Editez]]%0a
+host:1621606049=::1
+author:1621606043=
+diff:1621606043:1621606024:=7d6%0a%3c #[[this is a test]]:(:adl delete 1621606044a71060b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]]%0a
+host:1621606043=::1
+author:1621606024=
+diff:1621606024:1621606023:=6a7%0a> #[[ceci est une proposition]]:(:adl delete 1621606009a59882b0 Main.Accueil:):[[Editez?passedvalue=ceci est une proposition|Editez]]%0a8d8%0a%3c %0a
+host:1621606024=::1
+author:1621606023=
+diff:1621606023:1621606021:=7a8%0a> #[[this is a test]]:(:adl delete 1621606021a10308b0 Main.Accueil:):[[Editez?passedvalue=this is a test|Editez]]%0a9d9%0a%3c %0a
+host:1621606023=::1
+author:1621606021=
+diff:1621606021:1621606008:=8d7%0a%3c #[[this is a test]]:(:adl delete 1621606021a10308b0 Main.Accueil:):[[Editez?passedvalue=this is a test|Editez]]%0a
+host:1621606021=::1
+author:1621606008=
+diff:1621606008:1621605737:=7d6%0a%3c #[[ceci est une proposition]]:(:adl delete 1621606009a59882b0 Main.Accueil:):[[Editez?passedvalue=ceci est une proposition|Editez]]%0a
+host:1621606008=::1
+author:1621605737=
+diff:1621605737:1621605716:=6c6%0a%3c %0a---%0a> &quot;#[[teest]]:(:adl delete%0a
+host:1621605737=::1
+author:1621605716=
+diff:1621605716:1621605605:=6d5%0a%3c &quot;#[[teest]]:(:adl delete%0a
+host:1621605716=::1
+author:1621605605=
+diff:1621605605:1621605603:=5a6%0a> #[[test]]:(:adl delete 1621605569a91190b0 Main.Accueil:):[[Editez?passedvalue=test|Editez]] %0a7d7%0a%3c %0a
+host:1621605605=::1
+author:1621605603=
+diff:1621605603:1621605601:=6a7%0a> #[[another test]]:(:adl delete 1621605581a27701b0 Main.Accueil:):[[Editez?passedvalue=another test|Editez]] %0a8d8%0a%3c %0a
+host:1621605603=::1
+author:1621605601=
+diff:1621605601:1621605594:=7a8%0a> #[[teeest]]:(:adl delete 1621605595a1516b0 Main.Accueil:):[[Editez?passedvalue=teeest|Editez]] %0a9d9%0a%3c %0a
+host:1621605601=::1
+author:1621605594=
+diff:1621605594:1621605580:=8d7%0a%3c #[[teeest]]:(:adl delete 1621605595a1516b0 Main.Accueil:):[[Editez?passedvalue=teeest|Editez]] %0a
+host:1621605594=::1
+author:1621605580=
+diff:1621605580:1621605568:=7d6%0a%3c #[[another test]]:(:adl delete 1621605581a27701b0 Main.Accueil:):[[Editez?passedvalue=another test|Editez]] %0a
+host:1621605580=::1
+author:1621605568=
+diff:1621605568:1621605548:=6d5%0a%3c #[[test]]:(:adl delete 1621605569a91190b0 Main.Accueil:):[[Editez?passedvalue=test|Editez]] %0a
+host:1621605568=::1
+author:1621605548=
+diff:1621605548:1621605546:=5a6%0a> #[[this is a test]]:(:adl delete 1621605464a65363b0 Main.Accueil:):[[Editez?passedvalue=this is a test|Editez]] %0a7d7%0a%3c %0a
+host:1621605548=::1
+author:1621605546=
+diff:1621605546:1621605479:=6a7%0a> #[[dzaazddza]]:(:adl delete 1621605480a27579b0 Main.Accueil:):[[Editez?passedvalue=dzaazddza|Editez]] %0a8d8%0a%3c %0a
+host:1621605546=::1
+author:1621605479=
+diff:1621605479:1621605463:=7d6%0a%3c #[[dzaazddza]]:(:adl delete 1621605480a27579b0 Main.Accueil:):[[Editez?passedvalue=dzaazddza|Editez]] %0a
+host:1621605479=::1
+author:1621605463=
+diff:1621605463:1621605457:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621605464a65363b0 Main.Accueil:):[[Editez?passedvalue=this is a test|Editez]] %0a
+host:1621605463=::1
+author:1621605457=
+diff:1621605457:1621605456:=5a6%0a> #[[ceic est un test]]:(:adl delete 1621605438a20135b0 Main.Accueil:):[[Editez?passedvalue=ceic est un test|Editez]] %0a7d7%0a%3c %0a
+host:1621605457=::1
+author:1621605456=
+diff:1621605456:1621605450:=6a7%0a> #[[test]]:(:adl delete 1621605450a9625b0 Main.Accueil:):[[Editez?passedvalue=test|Editez]] %0a8d8%0a%3c %0a
+host:1621605456=::1
+author:1621605450=
+diff:1621605450:1621605437:=7d6%0a%3c #[[test]]:(:adl delete 1621605450a9625b0 Main.Accueil:):[[Editez?passedvalue=test|Editez]] %0a
+host:1621605450=::1
+author:1621605437=
+diff:1621605437:1621605428:=6d5%0a%3c #[[ceic est un test]]:(:adl delete 1621605438a20135b0 Main.Accueil:):[[Editez?passedvalue=ceic est un test|Editez]] %0a
+host:1621605437=::1
+author:1621605428=
+diff:1621605428:1621605252:=5a6%0a> #[[dedzadza]]:(:adl delete 1621605252a48090b0 Main.Accueil:):[[Editez?passedvalue=dedzadza|Editez]] %0a7d7%0a%3c %0a
+host:1621605428=::1
+author:1621605252=
+diff:1621605252:1621605209:=6d5%0a%3c #[[dedzadza]]:(:adl delete 1621605252a48090b0 Main.Accueil:):[[Editez?passedvalue=dedzadza|Editez]] %0a
+host:1621605252=::1
+author:1621605209=
+diff:1621605209:1621605207:=5a6%0a> #[[ceci est un test]]:(:adl delete 1621605205a21762b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test|Editez]] %0a7d7%0a%3c %0a
+host:1621605209=::1
+author:1621605207=
+diff:1621605207:1621605205:=5a6%0a> #[[this is a test]]:(:adl delete 1621605136a98102b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]] %0a8d8%0a%3c %0a
+host:1621605207=::1
+author:1621605205=
+diff:1621605205:1621605135:=7d6%0a%3c #[[ceci est un test]]:(:adl delete 1621605205a21762b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test|Editez]] %0a
+host:1621605205=::1
+author:1621605135=
+diff:1621605135:1621605106:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621605136a98102b0 Main.Accueil:)[[Editez?passedvalue=this is a test|Editez]] %0a
+host:1621605135=::1
+author:1621605106=
+diff:1621605106:1621605104:=5a6%0a> #[[this is a test]]:(:adl delete 1621605094a12640b0 Main.Accueil:)[[Editez?passedvalue=this is a test]] %0a7d7%0a%3c %0a
+host:1621605106=::1
+author:1621605104=
+diff:1621605104:1621605093:=
+host:1621605104=::1
+author:1621605093=
+diff:1621605093:1621605076:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621605094a12640b0 Main.Accueil:)[[Editez?passedvalue=this is a test]] %0a
+host:1621605093=::1
+author:1621605076=
+diff:1621605076:1621605075:=5a6%0a> #[[this is a test]]:(:adl delete 1621605053a56979b0 Main.Accueil:)[[Editez?passedvalue=this is a test]] %0a7d7%0a%3c %0a
+host:1621605076=::1
+author:1621605075=
+diff:1621605075:1621605064:=5a6%0a> #[[ceci est un test]]:(:adl delete 1621605028a17630b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]] %0a8d8%0a%3c %0a
+host:1621605075=::1
+author:1621605064=
+diff:1621605064:1621605052:=
+host:1621605064=::1
+author:1621605052=
+diff:1621605052:1621605028:=7d6%0a%3c #[[this is a test]]:(:adl delete 1621605053a56979b0 Main.Accueil:)[[Editez?passedvalue=this is a test]] %0a
+host:1621605052=::1
+author:1621605028=
+diff:1621605028:1621605022:=6d5%0a%3c #[[ceci est un test]]:(:adl delete 1621605028a17630b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]] %0a
+host:1621605028=::1
+author:1621605022=
+diff:1621605022:1621604864:=5a6%0a> #[[olll]]:(:adl delete 1621604864a98591b0 Main.Accueil:)[[Editez?passedvalue=olll]] %0a7d7%0a%3c %0a
+host:1621605022=::1
+author:1621604864=
+diff:1621604864:1621604855:=6d5%0a%3c #[[olll]]:(:adl delete 1621604864a98591b0 Main.Accueil:)[[Editez?passedvalue=olll]] %0a
+host:1621604864=::1
+author:1621604855=
+diff:1621604855:1621604810:=5a6%0a> #[[testre]]:(:adl delete 1621604811a14691b0 Main.Accueil:)[[Editez?passedvalue=testre]] %0a7d7%0a%3c %0a
+host:1621604855=::1
+author:1621604810=
+diff:1621604810:1621604794:=6d5%0a%3c #[[testre]]:(:adl delete 1621604811a14691b0 Main.Accueil:)[[Editez?passedvalue=testre]] %0a
+host:1621604810=::1
+author:1621604794=
+diff:1621604794:1621604487:=5a6%0a> #[[test]]:(:adl delete 1621604487a79190b0 Main.Accueil:)[[Editez?passedvalue=test]] %0a7d7%0a%3c %0a
+host:1621604794=::1
+author:1621604487=
+diff:1621604487:1621604443:=6d5%0a%3c #[[test]]:(:adl delete 1621604487a79190b0 Main.Accueil:)[[Editez?passedvalue=test]] %0a
+host:1621604487=::1
+author:1621604443=
+diff:1621604443:1621604437:=5a6%0a> #[[ceci est un test]]:(:adl delete 1621604437a44635b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]] %0a7d7%0a%3c %0a
+host:1621604443=::1
+author:1621604437=
+diff:1621604437:1621604431:=6d5%0a%3c #[[ceci est un test]]:(:adl delete 1621604437a44635b0 Main.Accueil:)[[Editez?passedvalue=ceci est un test]] %0a
+host:1621604437=::1
+author:1621604431=
+diff:1621604431:1621604339:=5a6%0a> #[[testett]]:(:adl delete 1621604340a99814b0 Main.Accueil:)[[Editez?passedvalue=testett]] %0a7d7%0a%3c %0a
+host:1621604431=::1
+author:1621604339=
+diff:1621604339:1621604309:=6d5%0a%3c #[[testett]]:(:adl delete 1621604340a99814b0 Main.Accueil:)[[Editez?passedvalue=testett]] %0a
+host:1621604339=::1
+author:1621604309=
+diff:1621604309:1621604306:=5a6%0a> #[[testetsts]]:(:adl delete 1621604250a60965b0 Main.Accueil:)[[Editez?passedvalue=testetsts]] %0a7d7%0a%3c %0a
+host:1621604309=::1
+author:1621604306=
+diff:1621604306:1621604249:=5a6%0a> #[[yuooo]]:(:adl delete 1621603983a9842b0 Main.Accueil:)[[Editez?passedvalue=hossam]] %0a8d8%0a%3c %0a
+host:1621604306=::1
+author:1621604249=
+diff:1621604249:1621603982:=7d6%0a%3c #[[testetsts]]:(:adl delete 1621604250a60965b0 Main.Accueil:)[[Editez?passedvalue=testetsts]] %0a
+host:1621604249=::1
+author:1621603982=
+diff:1621603982:1621603963:=6d5%0a%3c #[[yuooo]]:(:adl delete 1621603983a9842b0 Main.Accueil:)[[Editez?passedvalue=hossam]] %0a
+host:1621603982=::1
+author:1621603963=
+diff:1621603963:1621603928:=5a6%0a> #[[ceci est un test?passedvalue=hossam]]:(:adl delete 1621603929a85074b0 Main.Accueil:)[[Editez]] %0a7d7%0a%3c %0a
+host:1621603963=::1
+author:1621603928=
+diff:1621603928:1621603906:=6d5%0a%3c #[[ceci est un test?passedvalue=hossam]]:(:adl delete 1621603929a85074b0 Main.Accueil:)[[Editez]] %0a
+host:1621603928=::1
+author:1621603906=
+diff:1621603906:1621603874:=5a6%0a> #[[yooo?passedValue=hossam]]:(:adl delete 1621603875a65656b0 Main.Accueil:)[[Editez]] %0a7d7%0a%3c %0a
+host:1621603906=::1
+author:1621603874=
+diff:1621603874:1621603822:=6d5%0a%3c #[[yooo?passedValue=hossam]]:(:adl delete 1621603875a65656b0 Main.Accueil:)[[Editez]] %0a
+host:1621603874=::1
+author:1621603822=
+diff:1621603822:1621603820:=5a6%0a> #[[this is a test]]:(:adl delete 1621603778a69553b0 Main.Accueil:)[[Editez]] %0a7d7%0a%3c %0a
+host:1621603822=::1
+author:1621603820=
+diff:1621603820:1621603778:=
+host:1621603820=::1
+author:1621603778=
+diff:1621603778:1621603748:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621603778a69553b0 Main.Accueil:)[[Editez]] %0a
+host:1621603778=::1
+author:1621603748=
+diff:1621603748:1621603745:=5a6%0a> #[[]]:(:adl delete 1621603746a24612b0 Main.Accueil:)[[Editez]] %0a7d7%0a%3c %0a
+host:1621603748=::1
+author:1621603745=
+diff:1621603745:1621603683:=6d5%0a%3c #[[]]:(:adl delete 1621603746a24612b0 Main.Accueil:)[[Editez]] %0a
+host:1621603745=::1
+author:1621603683=
+diff:1621603683:1621603681:=5a6%0a> #[[this is a test]]:(:adl delete 1621603339a18014b0 Main.Accueil:)[[Editez]] %0a7d7%0a%3c %0a
+host:1621603683=::1
+author:1621603681=
+diff:1621603681:1621603679:=6a7%0a> #[[dzzqdzq]]:(:adl delete 1621603558a57352b0 Main.Accueil:)[[Editez]] %0a8d8%0a%3c %0a
+host:1621603681=::1
+author:1621603679=
+diff:1621603679:1621603674:=7a8%0a> #[[]]:(:adl delete 1621603675a44269b0 Main.Accueil:)[[Editez]] %0a9d9%0a%3c %0a
+host:1621603679=::1
+author:1621603674=
+diff:1621603674:1621603585:=8d7%0a%3c #[[]]:(:adl delete 1621603675a44269b0 Main.Accueil:)[[Editez]] %0a
+host:1621603674=::1
+author:1621603585=
+diff:1621603585:1621603579:=12a13%0a> {$|description}%0a
+host:1621603585=::1
+author:1621603579=
+diff:1621603579:1621603571:=13c13%0a%3c {$|description}%0a---%0a> {$|Username}%0a
+host:1621603579=::1
+author:1621603571=
+diff:1621603571:1621603557:=13c13%0a%3c {$|Username}%0a---%0a> %0a
+host:1621603571=::1
+author:1621603557=
+diff:1621603557:1621603531:=7d6%0a%3c #[[dzzqdzq]]:(:adl delete 1621603558a57352b0 Main.Accueil:)[[Editez]] %0a
+host:1621603557=::1
+author:1621603531=
+diff:1621603531:1621603513:=9c9%0a%3c %0a---%0a> {$|description}%0a
+host:1621603531=::1
+author:1621603513=
+diff:1621603513:1621603339:=9c9%0a%3c {$|description}%0a---%0a> %0a
+host:1621603513=::1
+author:1621603339=
+diff:1621603339:1621603272:=6d5%0a%3c #[[this is a test]]:(:adl delete 1621603339a18014b0 Main.Accueil:)[[Editez]] %0a
+host:1621603339=::1
+author:1621603272=
+diff:1621603272:1621602767:=5a6%0a> #[[this is a test]]:(:adl delete 1621586018a8816b0 Main.Accueil:)[[Editez]] %0a7d7%0a%3c %0a
+host:1621603272=::1
+author:1621602767=
+diff:1621602767:1621602748:=3a4,5%0a> %0a> [[Attach:images.jpg]]%0a
+host:1621602767=::1
+author:1621602748=
+diff:1621602748:1621602585:=
+host:1621602748=::1
+author:1621602585=
+diff:1621602585:1621602480:=1,2c1,2%0a%3c %25center%25 %25font-size=40px%25 Département Informatique%0a%3c %0a---%0a> xxxx%25center%25 %25font-size=40px%25 Département Informatique%0a> %0a5a6,7%0a> %0a> %25center%25images.jpg"Paper clips"%25%25%0a
+host:1621602585=::1
+author:1621602480=
+diff:1621602480:1621602462:=7c7%0a%3c %25center%25images.jpg"Paper clips"%25%25%0a---%0a> %25center%25https://pmichaud.com/img/misc/pc.jpg"Paper clips"%25%25%0a
+host:1621602480=::1
+author:1621602462=
+diff:1621602462:1621602383:=7c7%0a%3c %25center%25https://pmichaud.com/img/misc/pc.jpg"Paper clips"%25%25%0a---%0a> [[http://pmwiki.org/ | C:/Users/Hossam/Desktop/images.jpg]]%0a
+host:1621602462=::1
+author:1621602383=
+diff:1621602383:1621602083:=5c5%0a%3c [[Attach:images.jpg]]%0a---%0a> %0a
+host:1621602383=::1
+author:1621602083=
+diff:1621602083:1621602074:=7c7%0a%3c [[http://pmwiki.org/ | C:/Users/Hossam/Desktop/images.jpg]]%0a---%0a> [[http://pmwiki.org/ | file:///C:/Users/Hossam/Desktop/images.jpg]]%0a
+host:1621602083=::1
+author:1621602074=
+diff:1621602074:1621586017:=7d6%0a%3c [[http://pmwiki.org/ | file:///C:/Users/Hossam/Desktop/images.jpg]]%0a
+host:1621602074=::1
+author:1621586017=
+diff:1621586017:1621586011:=9d8%0a%3c #[[this is a test]]:(:adl delete 1621586018a8816b0 Main.Accueil:)[[Editez]] %0a
+host:1621586017=::1
+author:1621586011=
+diff:1621586011:1621585851:=8a9%0a> #[[ceci est une proposition]]:(:adl delete 1621585397a57620b0 Main.Accueil:)[[Editez]] %0a10d10%0a%3c %0a
+host:1621586011=::1
+author:1621585851=
+diff:1621585851:1621585685:=9a10%0a> #[[test2]]:(:adl delete 1621585415a50772b0 Main.Accueil:)[[Editez]] %0a11d11%0a%3c %0a
+host:1621585851=::1
+author:1621585685=myactionbot
+diff:1621585685:1621585668:=1c1%0a%3c xxxx%25center%25 %25font-size=40px%25 Département Informatique%0a---%0a> xxx%25center%25 %25font-size=40px%25 Département Informatique%0a
+host:1621585685=::1
+author:1621585668=myactionbot
+diff:1621585668:1621585663:=1c1%0a%3c xxx%25center%25 %25font-size=40px%25 Département Informatique%0a---%0a> xx%25center%25 %25font-size=40px%25 Département Informatique%0a
+host:1621585668=::1
+author:1621585663=myactionbot
+diff:1621585663:1621585432:=1c1%0a%3c xx%25center%25 %25font-size=40px%25 Département Informatique%0a---%0a> x%25center%25 %25font-size=40px%25 Département Informatique%0a
+host:1621585663=::1
+author:1621585432=
+diff:1621585432:1621585415:=
+host:1621585432=::1
+author:1621585415=
+diff:1621585415:1621585397:=10d9%0a%3c #[[test2]]:(:adl delete 1621585415a50772b0 Main.Accueil:)[[Editez]] %0a
+host:1621585415=::1
+author:1621585397=
+diff:1621585397:1621585320:=9d8%0a%3c #[[ceci est une proposition]]:(:adl delete 1621585397a57620b0 Main.Accueil:)[[Editez]] %0a
+host:1621585397=::1
+author:1621585320=
+diff:1621585320:1621522406:=8a9%0a> #[[dzqdzqdz]]:(:adl delete 1621522322a37201b0 Main.Accueil:)[[Main.Editez?action=myaction]] %0a10d10%0a%3c %0a
+host:1621585320=::1
+author:1621522406=myactionbot
+diff:1621522406:1621522383:=1c1%0a%3c x%25center%25 %25font-size=40px%25 Département Informatique%0a---%0a> %25center%25 %25font-size=40px%25 Département Informatique%0a
+host:1621522406=::1
+author:1621522383=
+diff:1621522383:1621522361:=0a1%0a> xxxxx                        %0a
+host:1621522383=::1
+author:1621522361=
+diff:1621522361:1621522359:=
+host:1621522361=::1
+author:1621522359=myactionbot
+diff:1621522359:1621522351:=1c1%0a%3c xxxxx                        %0a---%0a> xxxx                        %0a
+host:1621522359=::1
+author:1621522351=
+diff:1621522351:1621522348:=
+host:1621522351=::1
+author:1621522348=myactionbot
+diff:1621522348:1621522344:=1c1%0a%3c xxxx                        %0a---%0a> xxx                        %0a
+host:1621522348=::1
+author:1621522344=
+diff:1621522344:1621522326:=10c10%0a%3c #[[dzqdzqdz]]:(:adl delete 1621522322a37201b0 Main.Accueil:)[[Main.Editez?action=myaction]] %0a---%0a> #[[dzqdzqdz]]:(:adl delete 1621522322a37201b0 Main.Accueil:)[[Main.Editer?action=myaction]] %0a
+host:1621522344=::1
+author:1621522326=myactionbot
+diff:1621522326:1621522322:=1c1%0a%3c xxx                        %0a---%0a> xx                        %0a
+host:1621522326=::1
+author:1621522322=
+diff:1621522322:1621522317:=10d9%0a%3c #[[dzqdzqdz]]:(:adl delete 1621522322a37201b0 Main.Accueil:)[[Main.Editer?action=myaction]] %0a
+host:1621522322=::1
+author:1621522317=
+diff:1621522317:1621522312:=9a10%0a> #[[dzqdzqzd]]:(:adl delete 1621522263a28445b0 Main.Accueil:)[[Main.Editez?action=myaction]] %0a11d11%0a%3c %0a
+host:1621522317=::1
+author:1621522312=
+diff:1621522312:1621522288:=10c10%0a%3c #[[dzqdzqzd]]:(:adl delete 1621522263a28445b0 Main.Accueil:)[[Main.Editez?action=myaction]] %0a---%0a> #[[dzqdzqzd]]:(:adl delete 1621522263a28445b0 Main.Accueil:)[[Main.Editer?action=myaction]] %0a
+host:1621522312=::1
+author:1621522288=myactionbot
+diff:1621522288:1621522281:=1c1%0a%3c xx                        %0a---%0a> x                        %0a
+host:1621522288=::1
+author:1621522281=
+diff:1621522281:1621522266:=
+host:1621522281=::1
+author:1621522266=myactionbot
+diff:1621522266:1621522262:=1c1%0a%3c x                        %0a---%0a>                         %0a
+host:1621522266=::1
+author:1621522262=
+diff:1621522262:1621522195:=10d9%0a%3c #[[dzqdzqzd]]:(:adl delete 1621522263a28445b0 Main.Accueil:)[[Main.Editer?action=myaction]] %0a
+host:1621522262=::1
+author:1621522195=
+diff:1621522195:1621522193:=9a10%0a> #[[zdqdzqzdq]]:(:adl delete 1621522174a10742b0 Main.Accueil:)[[?action=myaction| Editez]]%0a11d11%0a%3c %0a
+host:1621522195=::1
+author:1621522193=
+diff:1621522193:1621522173:=9a10%0a> #[[dzazadazdz]]:(:adl delete 1621519362a51337b0 Main.Accueil:)[[Editez]]%0a12d12%0a%3c %0a
+host:1621522193=::1
+author:1621522173=
+diff:1621522173:1621519411:=11d10%0a%3c #[[zdqdzqzdq]]:(:adl delete 1621522174a10742b0 Main.Accueil:)[[?action=myaction| Editez]]%0a
+host:1621522173=::1
+author:1621519411=
+diff:1621519411:1621519401:=10a11%0a> #[[assasa]]:(:adl delete 1621519401a91980b0 Main.Accueil:)[[?action=myaction| Editez]]%0a12d12%0a%3c %0a
+host:1621519411=::1
+author:1621519401=
+diff:1621519401:1621519381:=11d10%0a%3c #[[assasa]]:(:adl delete 1621519401a91980b0 Main.Accueil:)[[?action=myaction| Editez]]%0a
+host:1621519401=::1
+author:1621519381=
+diff:1621519381:1621519362:=
+host:1621519381=::1
+author:1621519362=
+diff:1621519362:1621519356:=10d9%0a%3c #[[dzazadazdz]]:(:adl delete 1621519362a51337b0 Main.Accueil:)[[Editez]]%0a
+host:1621519362=::1
+author:1621519356=
+diff:1621519356:1621519305:=11c11%0a%3c %0a---%0a> (:adl prepend edit:)%0a
+host:1621519356=::1
+author:1621519305=
+diff:1621519305:1621519256:=1c1%0a%3c                         %0a---%0a> xxxxxxx                          %0a
+host:1621519305=::1
+author:1621519256=myactionbot
+diff:1621519256:1621519249:=1c1%0a%3c xxxxxxx                          %0a---%0a> xxxxxx                          %0a
+host:1621519256=::1
+author:1621519249=myactionbot
+diff:1621519249:1621519219:=1c1%0a%3c xxxxxx                          %0a---%0a> xxxxx                          %0a
+host:1621519249=::1
+author:1621519219=myactionbot
+diff:1621519219:1621519214:=1c1%0a%3c xxxxx                          %0a---%0a> xxxx                          %0a
+host:1621519219=::1
+author:1621519214=myactionbot
+diff:1621519214:1621519176:=1c1%0a%3c xxxx                          %0a---%0a> xxx                          %0a
+host:1621519214=::1
+author:1621519176=myactionbot
+diff:1621519176:1621519134:=1c1%0a%3c xxx                          %0a---%0a> xx                          %0a
+host:1621519176=::1
+author:1621519134=myactionbot
+diff:1621519134:1621519132:=1c1%0a%3c xx                          %0a---%0a> x                          %0a
+host:1621519134=::1
+author:1621519132=myactionbot
+diff:1621519132:1621518492:=1c1%0a%3c x                          %0a---%0a>                           %0a
+host:1621519132=::1
+author:1621518492=zddz
+diff:1621518492:1621518467:=
+host:1621518492=::1
+author:1621518467=zddz
+diff:1621518467:1621518462:=9a10%0a> #[[this is a test]]:(:adl delete 1621515878a71619b0 Main.Accueil:)[[Editez]]%0a12d12%0a%3c %0a
+host:1621518467=::1
+author:1621518462=zddz
+diff:1621518462:1621518456:=15c15%0a%3c %0a---%0a> ?action=phpinfo%0a
+host:1621518462=::1
+author:1621518456=zddz
+diff:1621518456:1621518439:=
+host:1621518456=::1
+author:1621518439=zddz
+diff:1621518439:1621516547:=15c15%0a%3c ?action=phpinfo%0a---%0a> %0a
+host:1621518439=::1
+author:1621516547=zddz
+diff:1621516547:1621516541:=13c13%0a%3c %0a---%0a> [[zadazdadz]]:(:adl delete 1621516542a79041b0 Main.Accueil:)[[Editez]]%0a
+host:1621516547=::1
+author:1621516541=zddz
+diff:1621516541:1621516537:=13d12%0a%3c [[zadazdadz]]:(:adl delete 1621516542a79041b0 Main.Accueil:)[[Editez]]%0a
+host:1621516541=::1
+author:1621516537=zddz
+diff:1621516537:1621516512:=11,12c11,12%0a%3c (:adl append name:)%0a%3c (:adl prepend edit:)%0a---%0a> (:adl prepend name:)%0a> %0a
+host:1621516537=::1
+author:1621516512=zddz
+diff:1621516512:1621516506:=
+host:1621516512=::1
+author:1621516506=zddz
+diff:1621516506:1621516501:=
+host:1621516506=::1
+author:1621516501=zddz
+diff:1621516501:1621516451:=11c11%0a%3c (:adl prepend name:)%0a---%0a> (:adl append name:)%0a
+host:1621516501=::1
+author:1621516451=zddz
+diff:1621516451:1621516433:=
+host:1621516451=::1
+author:1621516433=zddz
+diff:1621516433:1621516416:=
+host:1621516433=::1
+author:1621516416=zddz
+diff:1621516416:1621516413:=10a11%0a> [[dzaazddza]]:(:adl delete 1621516413a8862b0 Main.Accueil:)[[Editez]]%0a12d12%0a%3c %0a
+host:1621516416=::1
+author:1621516413=zddz
+diff:1621516413:1621516361:=11d10%0a%3c [[dzaazddza]]:(:adl delete 1621516413a8862b0 Main.Accueil:)[[Editez]]%0a
+host:1621516413=::1
+author:1621516361=zddz
+diff:1621516361:1621516356:=10a11%0a> #[[qzdzqdzz]]:(:adl delete 1621516357a77692b0 Main.Accueil:)[[Editez]]%0a12d12%0a%3c %0a
+host:1621516361=::1
+author:1621516356=zddz
+diff:1621516356:1621516058:=11d10%0a%3c #[[qzdzqdzz]]:(:adl delete 1621516357a77692b0 Main.Accueil:)[[Editez]]%0a
+host:1621516356=::1
+author:1621516058=zddz
+diff:1621516058:1621516049:=10a11%0a> #[[{description}]]:(:adl delete 1621516050a46918b0 Main.Accueil:)[[Editez]]%0a12d12%0a%3c %0a
+host:1621516058=::1
+author:1621516049=zddz
+diff:1621516049:1621515991:=11d10%0a%3c #[[{description}]]:(:adl delete 1621516050a46918b0 Main.Accueil:)[[Editez]]%0a
+host:1621516049=::1
+author:1621515991=zddz
+diff:1621515991:1621515989:=10a11%0a> #[[another one]]:(:adl delete 1621515927a36236b0 Main.Accueil:)[[Editez]]%0a12d12%0a%3c %0a
+host:1621515991=::1
+author:1621515989=zddz
+diff:1621515989:1621515979:=11a12%0a> #[[{description}]]:(:adl delete 1621515979a90680b0 Main.Accueil:)[[Editez]]%0a13d13%0a%3c %0a
+host:1621515989=::1
+author:1621515979=zddz
+diff:1621515979:1621515927:=12d11%0a%3c #[[{description}]]:(:adl delete 1621515979a90680b0 Main.Accueil:)[[Editez]]%0a
+host:1621515979=::1
+author:1621515927=zddz
+diff:1621515927:1621515878:=11d10%0a%3c #[[another one]]:(:adl delete 1621515927a36236b0 Main.Accueil:)[[Editez]]%0a
+host:1621515927=::1
+author:1621515878=zddz
+diff:1621515878:1621515857:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621515878a71619b0 Main.Accueil:)[[Editez]]%0a
+host:1621515878=::1
+author:1621515857=zddz
+diff:1621515857:1621515749:=9a10%0a> #[[this is a test]]:(:adl delete 1621515529a27746b0 Main.Accueil:)[[Editez]]%0a11d11%0a%3c %0a
+host:1621515857=::1
+author:1621515749=zddz
+diff:1621515749:1621515529:=
+host:1621515749=::1
+author:1621515529=zddz
+diff:1621515529:1621515484:=10d9%0a%3c #[[this is a test]]:(:adl delete 1621515529a27746b0 Main.Accueil:)[[Editez]]%0a
+host:1621515529=::1
+author:1621515484=zddz
+diff:1621515484:1621515354:=9a10%0a> #[[azdzazda]]:(:adl delete 1621515354a70899b0 Main.Accueil:)[[Editez]]%0a11d11%0a%3c %0a
+host:1621515484=::1
+author:1621515354=zddz
+diff:1621515354:1621515259:=10d9%0a%3c #[[azdzazda]]:(:adl delete 1621515354a70899b0 Main.Accueil:)[[Editez]]%0a
+host:1621515354=::1
+author:1621515259=zddz
+diff:1621515259:1621515238:=9a10%0a> #[[acces Master aux L3 UBO    ]]:(:adl delete 1621515239a42807b0 Main.Accueil:)%0a11d11%0a%3c %0a
+host:1621515259=::1
+author:1621515238=zddz
+diff:1621515238:1621514944:=10d9%0a%3c #[[acces Master aux L3 UBO    ]]:(:adl delete 1621515239a42807b0 Main.Accueil:)%0a
+host:1621515238=::1
+author:1621514944=zddz
+diff:1621514944:1621514928:=8a9%0a> %0a9a11,12%0a> #[[Accès Master aux L3 UBO]]%0a> #[[Accès master aux L3 hors UBO]]%0a
+host:1621514944=::1
+author:1621514928=zddz
+diff:1621514928:1621514923:=12a13%0a> #[[heeloo]]:(:adl delete 1621514924a39011b0 Main.Accueil:)%0a14d14%0a%3c %0a
+host:1621514928=::1
+author:1621514923=zddz
+diff:1621514923:1621514909:=13d12%0a%3c #[[heeloo]]:(:adl delete 1621514924a39011b0 Main.Accueil:)%0a
+host:1621514923=::1
+author:1621514909=zddz
+diff:1621514909:1621514905:=12a13%0a> #[[azaaza]]:||(:adl delete 1621514905a55438b0 Main.Accueil:)||%0a14d14%0a%3c %0a
+host:1621514909=::1
+author:1621514905=zddz
+diff:1621514905:1621514898:=13d12%0a%3c #[[azaaza]]:||(:adl delete 1621514905a55438b0 Main.Accueil:)||%0a
+host:1621514905=::1
+author:1621514898=zddz
+diff:1621514898:1621514894:=12a13%0a> #[[Deuxieme acces]]:||(:adl delete 1621514894a13122b0 Main.Accueil:)||%0a14d14%0a%3c %0a
+host:1621514898=::1
+author:1621514894=zddz
+diff:1621514894:1621514863:=13d12%0a%3c #[[Deuxieme acces]]:||(:adl delete 1621514894a13122b0 Main.Accueil:)||%0a
+host:1621514894=::1
+author:1621514863=zddz
+diff:1621514863:1621514856:=12a13%0a> #qzddqzdqz%0a
+host:1621514863=::1
+author:1621514856=zddz
+diff:1621514856:1621514850:=13a14%0a> #szzzszs:||(:adl delete 1621514851a64478b0 Main.Accueil:)||%0a15d15%0a%3c %0a
+host:1621514856=::1
+author:1621514850=zddz
+diff:1621514850:1621514781:=14d13%0a%3c #szzzszs:||(:adl delete 1621514851a64478b0 Main.Accueil:)||%0a
+host:1621514850=::1
+author:1621514781=zddz
+diff:1621514781:1621514775:=
+host:1621514781=::1
+author:1621514775=zddz
+diff:1621514775:1621514763:=
+host:1621514775=::1
+author:1621514763=zddz
+diff:1621514763:1621514740:=13d12%0a%3c #qzddqzdqz%0a
+host:1621514763=::1
+author:1621514740=zddz
+diff:1621514740:1621514737:=12a13%0a> zzqdzqzqd (:adl delete 1621514737a22964b0 Main.Accueil:) %0a14d14%0a%3c %0a
+host:1621514740=::1
+author:1621514737=zddz
+diff:1621514737:1621514732:=13d12%0a%3c zzqdzqzqd (:adl delete 1621514737a22964b0 Main.Accueil:) %0a
+host:1621514737=::1
+author:1621514732=zddz
+diff:1621514732:1621514729:=6,9c6,10%0a%3c %0a%3c %0a%3c %0a%3c %0a---%0a> dzqzdqdzqzdq (:adl delete 1621514673a14660b0 Main.Accueil:) %0a> %0a> %0a> %0a> %0a13c14%0a%3c (:adl append name:)%0a---%0a> (:adl append name:)%0a\ No newline at end of file%0a
+host:1621514732=::1
+author:1621514729=zddz
+diff:1621514729:1621514673:=7,10c7,10%0a%3c %0a%3c %0a%3c %0a%3c %0a---%0a> (:adl append name:)%0a> (:adl template My name is {titre}.:)%0a> %0a> %0a14d13%0a%3c (:adl append name:)%0a\ No newline at end of file%0a
+host:1621514729=::1
+author:1621514673=zddz
+diff:1621514673:1621514388:=6d5%0a%3c dzqzdqdzqzdq (:adl delete 1621514673a14660b0 Main.Accueil:) %0a
+host:1621514673=::1
+author:1621514388=zddz
+diff:1621514388:1621514284:=7c7%0a%3c (:adl template My name is {titre}.:)%0a---%0a> (:adl template My name is {name}.:)%0a
+host:1621514388=::1
+author:1621514284=zddz
+diff:1621514284:1621513944:=
+host:1621514284=::1
+author:1621513944=zddz
+diff:1621513944:1621513886:=7d6%0a%3c (:adl template My name is {name}.:)%0a
+host:1621513944=::1
+author:1621513886=zddz
+diff:1621513886:1621513667:=
+host:1621513886=::1
+author:1621513667=zddz
+diff:1621513667:1621513523:=6,8c6%0a%3c (:adl append name:)%0a%3c %0a%3c %0a---%0a> %0a11a10,11%0a> (:adl append simpleExample:)%0a> (:adl template My name is {simpleExample}.:)%0a\ No newline at end of file%0a
+host:1621513667=::1
+author:1621513523=zddz
+diff:1621513523:1621513131:=10,11c10,11%0a%3c (:adl append simpleExample:)%0a%3c (:adl template My name is {simpleExample}.:)%0a\ No newline at end of file%0a---%0a> (:adl append name:)%0a> (:adl template My name is {titre}.:)%0a\ No newline at end of file%0a
+host:1621513523=::1
+author:1621513131=zddz
+diff:1621513131:1621513028:=
+host:1621513131=::1
+author:1621513028=zddz
+diff:1621513028:1621512977:=11c11%0a%3c (:adl template My name is {titre}.:)%0a\ No newline at end of file%0a---%0a> (:adl template '{titre} says (:other markup "{text1}":)' :)%0a\ No newline at end of file%0a
+host:1621513028=::1
+author:1621512977=zddz
+diff:1621512977:1621512712:=11d10%0a%3c (:adl template '{titre} says (:other markup "{text1}":)' :)%0a\ No newline at end of file%0a
+host:1621512977=::1
+author:1621512712=zddz
+diff:1621512712:1621512387:=
+host:1621512712=::1
+author:1621512387=zddz
+diff:1621512387:1621432995:=10c10%0a%3c (:adl append name:)%0a---%0a> %0a
+host:1621512387=::1
+author:1621432995=
+diff:1621432995:1621432992:=
+host:1621432995=::1
+author:1621432992=
+diff:1621432992:1621432903:=
+host:1621432992=::1
+author:1621432903=
+diff:1621432903:1621432769:=8,10c8,13%0a%3c #[[Accès Master aux L3 UBO]]%0a%3c #[[Accès master aux L3 hors UBO]]%0a%3c %0a---%0a> #[[,Accès Master aux L3 UBO]]%0a> #[[,Accès master aux L3 hors UBO]]%0a> %0a> (:subpage:)%0a> * [[,page 1]]%0a> * [[,page 2]]%0a\ No newline at end of file%0a
+host:1621432903=::1
+author:1621432769=
+diff:1621432769:1621432713:=11,13d10%0a%3c (:subpage:)%0a%3c * [[,page 1]]%0a%3c * [[,page 2]]%0a\ No newline at end of file%0a
+host:1621432769=::1
+author:1621432713=
+diff:1621432713:1621432680:=7,9c7,9%0a%3c [[Ajoutez Nouvelle Proposition]]%0a%3c #[[,Accès Master aux L3 UBO]]%0a%3c #[[,Accès master aux L3 hors UBO]]%0a---%0a> (:subpage:)[[Ajoutez Nouvelle Proposition]]%0a> #[[Accès Master aux L3 UBO]]%0a> #[[Accès master aux L3 hors UBO]]%0a
+host:1621432713=::1
+author:1621432680=
+diff:1621432680:1621432538:=
+host:1621432680=::1
+author:1621432538=
+diff:1621432538:1621432378:=7c7%0a%3c (:subpage:)[[Ajoutez Nouvelle Proposition]]%0a---%0a> [[Ajoutez Nouvelle Proposition]]%0a
+host:1621432538=::1
+author:1621432378=
+diff:1621432378:1621432328:=7,9c7,8%0a%3c [[Ajoutez Nouvelle Proposition]]%0a%3c #[[Accès Master aux L3 UBO]]%0a%3c #[[Accès master aux L3 hors UBO]]%0a---%0a> #[[acces Master aux L3 UBO]]%0a> #[[acces master aux L3 hors UBO]]%0a
+host:1621432378=::1
+author:1621432328=
+diff:1621432328:1621432272:=7,8c7,8%0a%3c #[[acces Master aux L3 UBO]]%0a%3c #[[acces master aux L3 hors UBO]]%0a---%0a> *[[acces Master aux L3 UBO]]%0a> *[[Main/HomePage]]%0a
+host:1621432328=::1
+author:1621432272=
+diff:1621432272:1621432254:=7c7%0a%3c *[[acces Master aux L3 UBO]]%0a---%0a> *[[Main.HomePage]]%0a
+host:1621432272=::1
+author:1621432254=
+diff:1621432254:1621432207:=7,8c7%0a%3c *[[Main.HomePage]]%0a%3c *[[Main/HomePage]]%0a---%0a> (:pagelist group=master:)%0a
+host:1621432254=::1
+author:1621432207=
+diff:1621432207:1621432179:=7c7%0a%3c (:pagelist group=master:)%0a---%0a> (:pagelist:)%0a
+host:1621432207=::1
+author:1621432179=
+diff:1621432179:1621431582:=7c7,8%0a%3c (:pagelist:)%0a---%0a> (:includeupload test.txt:)%0a> %0a
+host:1621432179=::1
+author:1621431582=
+diff:1621431582:1621431477:=
+host:1621431582=::1
+author:1621431477=
+diff:1621431477:1621431331:=7c7%0a%3c (:includeupload test.txt:)%0a---%0a> (:includeupload README.txt:)%0a
+host:1621431477=::1
+author:1621431331=
+diff:1621431331:1621431260:=
+host:1621431331=::1
+author:1621431260=
+diff:1621431260:1621431227:=7c7%0a%3c (:includeupload README.txt:)%0a---%0a> (:includeupload myfile.txt:)%0a
+host:1621431260=::1
+author:1621431227=
+diff:1621431227:1621430750:=5,7d4%0a%3c %0a%3c %0a%3c (:includeupload myfile.txt:)%0a
+host:1621431227=::1
+author:1621430750=
+diff:1621430750:1621430740:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail :  %25font-size=30px blue%25 Master%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail :  %25font-size=30px%25 %25blue%25 Master%0a
+host:1621430750=::1
+author:1621430740=
+diff:1621430740:1621430727:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail :  %25font-size=30px%25 %25blue%25 Master%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail : %25blue%25 %25font-size=30px%25 Master%0a
+host:1621430740=::1
+author:1621430727=
+diff:1621430727:1621430708:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail : %25blue%25 %25font-size=30px%25 Master%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail : %25color=blue%25 %25font-size=30px%25 Master%0a
+host:1621430727=::1
+author:1621430708=
+diff:1621430708:1621430697:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail : %25color=blue%25 %25font-size=30px%25 Master%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail : %25color=blue%25 %25font-size=30px%25 '''Master'''%0a
+host:1621430708=::1
+author:1621430697=
+diff:1621430697:1621430681:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail : %25color=blue%25 %25font-size=30px%25 '''Master'''%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail : %25color=blue%25'''Master'''%0a
+host:1621430697=::1
+author:1621430681=
+diff:1621430681:1621430662:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail : %25color=blue%25'''Master'''%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail : '''Master'''%0a
+host:1621430681=::1
+author:1621430662=
+diff:1621430662:1621430648:=4c4%0a%3c %25center%25 %25font-size=30px%25 Groupe de travail : '''Master'''%0a---%0a> %25center%25 %25font-size=30px%25 Groupe de travail : Master%0a
+host:1621430662=::1
+author:1621430648=
+diff:1621430648:1621430626:=3,4d2%0a%3c %0a%3c %25center%25 %25font-size=30px%25 Groupe de travail : Master%0a
+host:1621430648=::1
+author:1621430626=
+diff:1621430626:1621430618:=2c2%0a%3c %25center%25 %25font-size=40px%25 Département Informatique%0a---%0a> %25center%25 %25font-size=60px%25 Département Informatique%0a
+host:1621430626=::1
+author:1621430618=
+diff:1621430618:1621430601:=2c2%0a%3c %25center%25 %25font-size=60px%25 Département Informatique%0a---%0a> %25center%25 !! Département Informatique%0a
+host:1621430618=::1
+author:1621430601=
+diff:1621430601:1621430593:=2c2%0a%3c %25center%25 !! Département Informatique%0a---%0a> %25center%25 Département Informatique%0a
+host:1621430601=::1
+author:1621430593=
+diff:1621430593:1621430569:=2c2%0a%3c %25center%25 Département Informatique%0a---%0a> %25text-align=center%25 Département Informatique%0a
+host:1621430593=::1
+author:1621430569=
+diff:1621430569:1621430560:=3c3%0a%3c %0a---%0a> %25align=middle%25 Groupe de travail : '''Master''' %0a
+host:1621430569=::1
+author:1621430560=
+diff:1621430560:1621430508:=2c2%0a%3c %25text-align=center%25 Département Informatique%0a---%0a> %25align=middle%25 Département Informatique%0a
+host:1621430560=::1
+author:1621430508=
+diff:1621430508:1621430498:=2,3c2,3%0a%3c %25align=middle%25 Département Informatique%0a%3c %25align=middle%25 Groupe de travail : '''Master''' %0a---%0a> %25align=middle%25!! Département Informatique%0a> %25align=middle%25!! Groupe de travail : '''Master''' %0a
+host:1621430508=::1
+author:1621430498=
+diff:1621430498:1621430480:=2c2%0a%3c %25align=middle%25!! Département Informatique%0a---%0a> %25font-family=monospace%25!! Département Informatique%0a
+host:1621430498=::1
+author:1621430480=
+diff:1621430480:1621430463:=3c3%0a%3c %25align=middle%25!! Groupe de travail : '''Master''' %0a---%0a> %25font-family=monospace%25!! Groupe de travail : '''Master''' %0a
+host:1621430480=::1
+author:1621430463=
+diff:1621430463:1621430431:=2,3c2,3%0a%3c %25font-family=monospace%25!! Département Informatique%0a%3c %25font-family=monospace%25!! Groupe de travail : '''Master''' %0a---%0a> !! Département Informatique%0a> !! Groupe de travail : %25aligne=middle%25'''Master''' %0a
+host:1621430463=::1
+author:1621430431=
+diff:1621430431:1621430390:=3c3%0a%3c !! Groupe de travail : %25aligne=middle%25'''Master''' %0a---%0a> !! Groupe de travail : '''Master''' %0a
+host:1621430431=::1
+author:1621430390=
+diff:1621430390:1621430369:=3c3%0a%3c !! Groupe de travail : '''Master''' %0a---%0a> !! Groupe de travail : %0a
+host:1621430390=::1
+author:1621430369=
+diff:1621430369:1621429973:=1,4c1%0a%3c                           %0a%3c !! Département Informatique%0a%3c !! Groupe de travail : %0a%3c %0a---%0a> Hello world%0a\ No newline at end of file%0a
+host:1621430369=::1
+author:1621429973=
+diff:1621429973:1621429973:=1d0%0a%3c Hello world%0a\ No newline at end of file%0a
+host:1621429973=::1

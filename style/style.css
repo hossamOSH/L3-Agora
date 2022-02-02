@@ -1,0 +1,161 @@
+
+#p{
+  margin-left: auto;
+  margin-right: end;
+  width: 8em;
+}
+
+#bg{
+  background-attachment: fixed;
+  background-size: contain;
+  background-image : url('/images/test.jpg'); 
+}  
+
+#li{
+  background-color: dimgray;
+  font-family: 'Mukta', sans-serif;
+}
+
+#p2{
+  margin-top: 20px;
+}
+
+
+
+label{
+  width: 708px;
+}
+
+button {
+  background-color: #000000;
+  color: #FFFFFF;
+  float: right;
+  padding: 1px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.block label { display: inline-block; width: 140px; text-align: right; }
+
+#ul{
+  text-align: left;
+}
+
+
+
+#p{
+  margin-left: auto;
+  margin-right: end;
+  width: 15em;
+  margin-top: -25px;
+}
+li{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.container3 {
+    box-sizing: border-box;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.container4 {
+  box-sizing: border-box;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.container5 {
+  box-sizing: border-box;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-right: 800px;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 70px;
+}
+
+.input-container2 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+
+
+.input-container4 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+
+.input-container3 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 300px;
+}
+
+#cancel-input{
+  margin-left: 4px;
+}
+
+#cancel-input2{
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+#cancel-input3{
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+#cancel-input4{
+  margin-left: 1200px;
+  margin-top: -161px;
+  border-top: 10px;
+  vertical-align: middle;
+}
+
+#input4{
+   margin-left: 100px;
+  margin-top: -10px;
+}
+
+#lb{
+  width: 94px;
+  margin-top: 5px;
+  font-size: large;
+  text-align: left;
+}
+
+#lb2{
+  width: 81px;
+  margin-top: 5px;
+  font-size: large;
+  text-align: center;
+}
+
+#lb3{
+  width: 81px;
+  margin-top: 5px;
+  text-align: left;
+  margin-right: 50px;
+}
+

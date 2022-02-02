@@ -1,0 +1,23 @@
+{
+    "name": "hossam/test-merc",
+    "authors": [
+        {
+            "name": "Hosssam",
+            "email": "ouldsouilemhossam@hotmail.com"
+        }
+    ],
+
+    "require": {},
+
+     "require-dev": {
+        "phpunit/phpunit": "^8",
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+
+    "autoload":{
+        "psr-4":{
+            "controllers\\":"controllers/"
+        }
+    }
+
+}

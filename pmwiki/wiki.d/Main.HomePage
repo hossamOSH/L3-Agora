@@ -1,0 +1,245 @@
+version=pmwiki-2.2.139 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=
+charset=ISO-8859-1
+csum=
+host=::1
+name=Main.HomePage
+passwdattr=$2y$10$ol4FHtjacF5oJfi9sNlan.YTjn72YUPUyVDDFuemCF0r0xHkGgGb.
+passwdedit=$2y$10$Gi9J5TjII2FfE/EPgUW2Cubl0a0nxVHhzxI17F.fGvnDQhxYp1uPS
+passwdread=$2y$10$PUYec7ijs4KfRDSUEpeqhes7tSPSbDEHCXrxjXwLQ6wQ7C2jm9XiS
+passwdupload=$2y$10$v2gFqmZQMigRZkZwy1eS1ObSIlr9RetTzRloumkgsG6YrKYSOlaVi
+rev=282
+targets=Main.Accueil
+text=[[Accueil]]%0a%0a%0a[[Accueil | https://images.assetsdelivery.com/compings_v2/qilli/qilli1712/qilli171200039.jpg%2522PmWiki%2522]]
+time=1622731095
+author:1622731095=
+diff:1622731095:1622731087:=4c4%0a%3c [[Accueil | https://images.assetsdelivery.com/compings_v2/qilli/qilli1712/qilli171200039.jpg%2522PmWiki%2522]]%0a\ No newline at end of file%0a---%0a> [[Accueil | https://images.assetsdelivery.com/compings_v2/qilli/qilli1712/qilli171200039.jpg%2522PmWiki%2522]]%25%25]]%0a\ No newline at end of file%0a
+host:1622731095=::1
+author:1622731087=
+diff:1622731087:1622731055:=4c4,5%0a%3c [[Accueil | https://images.assetsdelivery.com/compings_v2/qilli/qilli1712/qilli171200039.jpg%2522PmWiki%2522]]%25%25]]%0a\ No newline at end of file%0a---%0a> %0a> %25width=60%25[[Accueil | https://images.assetsdelivery.com/compings_v2/qilli/qilli1712/qilli171200039.jpg%2522PmWiki%2522]]%25%25]]%0a\ No newline at end of file%0a
+host:1622731087=::1
+author:1622731055=
+diff:1622731055:1622451966:=2,5d1%0a%3c %0a%3c %0a%3c %0a%3c %25width=60%25[[Accueil | https://images.assetsdelivery.com/compings_v2/qilli/qilli1712/qilli171200039.jpg%2522PmWiki%2522]]%25%25]]%0a\ No newline at end of file%0a
+host:1622731055=::1
+author:1622451966=
+diff:1622451966:1622451939:=1a2,3%0a> [[prop1]]%0a> [[prop2]]%0a\ No newline at end of file%0a
+host:1622451966=::1
+author:1622451939=
+diff:1622451939:1622450580:=2,3d1%0a%3c [[prop1]]%0a%3c [[prop2]]%0a\ No newline at end of file%0a
+host:1622451939=::1
+author:1622450580=
+diff:1622450580:1621864315:=
+host:1622450580=::1
+author:1621864315=
+diff:1621864315:1621864298:=1a2%0a> {Accueil$variable}%0a\ No newline at end of file%0a
+host:1621864315=::1
+author:1621864298=
+diff:1621864298:1621603313:=2d1%0a%3c {Accueil$variable}%0a\ No newline at end of file%0a
+host:1621864298=::1
+author:1621603313=
+diff:1621603313:1621601927:=
+host:1621603313=::1
+author:1621601927=
+diff:1621601927:1621584722:=1a2%0a> [[page-test]]%0a\ No newline at end of file%0a
+host:1621601927=::1
+author:1621584722=
+diff:1621584722:1621519286:=1,2c1%0a%3c [[Accueil]]%0a%3c [[page-test]]%0a\ No newline at end of file%0a---%0a> [[Accueil]]%0a\ No newline at end of file%0a
+host:1621584722=::1
+author:1621519286=
+diff:1621519286:1621519274:=1c1%0a%3c [[Accueil]]%0a\ No newline at end of file%0a---%0a> [[{*$FullName}?| Accueil]]%0a\ No newline at end of file%0a
+host:1621519286=::1
+author:1621519274=
+diff:1621519274:1621519025:=1c1%0a%3c [[{*$FullName}?| Accueil]]%0a\ No newline at end of file%0a---%0a> [[{*$FullName}?action=myaction| Accueil]]%0a\ No newline at end of file%0a
+host:1621519274=::1
+author:1621519025=zddz
+diff:1621519025:1621518910:=1c1%0a%3c [[{*$FullName}?action=myaction| Accueil]]%0a\ No newline at end of file%0a---%0a> [[{*$FullName}?action=edit| Accueil]]%0a\ No newline at end of file%0a
+host:1621519025=::1
+author:1621518910=zddz
+diff:1621518910:1621518898:=
+host:1621518910=::1
+author:1621518898=zddz
+diff:1621518898:1621518593:=1c1%0a%3c [[{*$FullName}?action=edit| Accueil]]%0a\ No newline at end of file%0a---%0a> [[{*$FullName}?action=phpinfo| Accueil]]%0a\ No newline at end of file%0a
+host:1621518898=::1
+author:1621518593=zddz
+diff:1621518593:1621518568:=1c1%0a%3c [[{*$FullName}?action=phpinfo| Accueil]]%0a\ No newline at end of file%0a---%0a> [[{*$FullName}?action=myaction| do my action]]%0a\ No newline at end of file%0a
+host:1621518593=::1
+author:1621518568=zddz
+diff:1621518568:1621518537:=1c1%0a%3c [[{*$FullName}?action=myaction| do my action]]%0a\ No newline at end of file%0a---%0a> [[Main/Accueil?action=phpinfo]]%0a\ No newline at end of file%0a
+host:1621518568=::1
+author:1621518537=zddz
+diff:1621518537:1621518515:=1c1%0a%3c [[Main/Accueil?action=phpinfo]]%0a\ No newline at end of file%0a---%0a> [[Accueil?action=phpinfo]]%0a\ No newline at end of file%0a
+host:1621518537=::1
+author:1621518515=zddz
+diff:1621518515:1621429959:=1c1%0a%3c [[Accueil?action=phpinfo]]%0a\ No newline at end of file%0a---%0a> [[Accueil]]%0a\ No newline at end of file%0a
+host:1621518515=::1
+author:1621429959=
+csum:1621429959=[[Accueil]]
+diff:1621429959:1621429852:=1c1%0a%3c [[Accueil]]%0a\ No newline at end of file%0a---%0a> (:redirect PageName:)%0a\ No newline at end of file%0a
+host:1621429959=::1
+author:1621429852=
+diff:1621429852:1621429792:=1c1,2%0a%3c (:redirect PageName:)%0a\ No newline at end of file%0a---%0a> %0a> (:attachlist NAME:)%0a\ No newline at end of file%0a
+host:1621429852=::1
+author:1621429792=
+diff:1621429792:1621429445:=2c2,3%0a%3c (:attachlist NAME:)%0a\ No newline at end of file%0a---%0a> %0a> !! heading%0a\ No newline at end of file%0a
+host:1621429792=::1
+author:1621429445=
+diff:1621429445:1621429403:=3c3%0a%3c !! heading%0a\ No newline at end of file%0a---%0a> %0a
+host:1621429445=::1
+author:1621429403=
+csum:1621429403=[[Page_Accueil]]
+diff:1621429403:1621428933:=1c1,44%0a%3c %0a---%0a> {(sum -2 one 6.04)}%0a> %0a> !! Heading%0a> %0a> %0a> @admins: hossam%0a> %0a> %0a> %25font-size=60px%25  Text is Hello%0a> %0a> %25font-family=monospace%25 Text is Hello with monospace %0a> %0a> %0a>  ''Emphasize'' (italics),%0a> '''strong''' (bold), %0a> '''''very strong''''' (bold italics).%0a> {+souligné+}%0a> %0a> %0a> || border=1%0a> ||! head 1 ||! head 2 ||! head 3 ||%0a> || cell 1  ||  cell 2 ||  cell 3 ||%0a> %0a> %0a> https://pmichaud.com/img/misc/pc.jpg"Paper clips" | [- %25newwin%25 [[ Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]%0a> %0a> %25color=green%25  Text is Hello%0a> %0a> %25accesskey=x%25 http://www.google.com/ %25%25%0a> %0a> %0a> {$Version}%0a> %0a> %25define=commentary apply=block background-color=#f8dce1 margin=1em border="1px dotted #ea97a4"%25%25%25%0a> Bla...%0a> %0a> %25commentary%25 This is a comment created using a wiki style %25%25%0a> >>commentary%3c%3c%0a> so is this%0a> >>%3c%3c%0a> %0a> bla%0a> %0a> (:includeSite http://test/ border=7 :)%0a
+host:1621429403=::1
+author:1621428933=
+diff:1621428933:1621426769:=
+host:1621428933=::1
+author:1621426769=
+diff:1621426769:1621421012:=
+host:1621426769=::1
+author:1621421012=
+diff:1621421012:1621420725:=
+host:1621421012=::1
+author:1621420725=
+diff:1621420725:1621347633:=
+host:1621420725=::1
+author:1621347633=
+diff:1621347633:1621347605:=44c44%0a%3c (:includeSite http://test/ border=7 :)%0a---%0a> (:includeSite https://example.com/ border=7 :)%0a
+host:1621347633=::1
+author:1621347605=
+diff:1621347605:1621347121:=43,44d42%0a%3c %0a%3c (:includeSite https://example.com/ border=7 :)%0a
+host:1621347605=::1
+author:1621347121=
+diff:1621347121:1621347118:=
+host:1621347121=::1
+author:1621347118=
+diff:1621347118:1621343289:=2,3d1%0a%3c %0a%3c !! Heading%0a
+host:1621347118=::1
+author:1621343289=
+diff:1621343289:1621343216:=3c3,6%0a%3c %0a---%0a> hossam: $2y$10$OG0H44keN7H8nxQ1gNHmLOiCuvCW05B3TN1DpBkMSe0ZddnrXM9G6%0a> %0a> @writers: bob%0a> carol: @editors%0a
+host:1621343289=::1
+author:1621342474=
+diff:1621342474:1621342132:=4,7d3%0a%3c %0a%3c @writers: bob%0a%3c carol: @editors%0a%3c @admins: hossam%0a
+host:1621342474=::1
+author:1621342132=
+diff:1621342132:1621342104:=3c3%0a%3c hossam: $2y$10$OG0H44keN7H8nxQ1gNHmLOiCuvCW05B3TN1DpBkMSe0ZddnrXM9G6%0a---%0a> hossam: $2y$10$zitkTx1faHePS955vMz9y.gNLPG4cRIrkWARnEu.QurGdt8/jgb0e%0a
+host:1621342132=::1
+author:1621341937=
+diff:1621341937:1621340989:=2,4d1%0a%3c %0a%3c hossam: $2y$10$zitkTx1faHePS955vMz9y.gNLPG4cRIrkWARnEu.QurGdt8/jgb0e%0a%3c %0a
+host:1621341937=::1
+author:1621340989=
+diff:1621340989:1621340936:=28c28%0a%3c %25define=commentary apply=block background-color=#f8dce1 margin=1em border="1px dotted #ea97a4"%25%25%25%0a---%0a> %0a30,33c30,37%0a%3c %0a%3c %25commentary%25 This is a comment created using a wiki style %25%25%0a%3c >>commentary%3c%3c%0a%3c so is this%0a---%0a> (:comment Here is a comment that produces no output:)%0a> bla.%0a> %0a> Bla...%0a> %25comment%25 This will be present, but hidden or invisible in the resulting output.%0a> >>comment%3c%3c%0a> This text will be hidden or invisible in the resulting output.%0a> You can have several lines of comments when writing like this.%0a35,36c39%0a%3c %0a%3c bla%0a---%0a> bla.%0a
+host:1621340989=::1
+author:1621340936=
+diff:1621340936:1621340877:=31,38d30%0a%3c bla.%0a%3c %0a%3c Bla...%0a%3c %25comment%25 This will be present, but hidden or invisible in the resulting output.%0a%3c >>comment%3c%3c%0a%3c This text will be hidden or invisible in the resulting output.%0a%3c You can have several lines of comments when writing like this.%0a%3c >>%3c%3c%0a
+host:1621340936=::1
+author:1621340877=
+diff:1621340877:1621340806:=30c30,33%0a%3c (:comment Here is a comment that produces no output:)%0a---%0a> (:if false:)%0a> 	This text is a comment. It won't be shown,%0a> 	nor appear in the generated HTML output%0a> (:ifend:)%0a
+host:1621340877=::1
+author:1621340806=
+diff:1621340806:1621339731:=27,34d26%0a%3c %0a%3c %0a%3c Bla...%0a%3c (:if false:)%0a%3c 	This text is a comment. It won't be shown,%0a%3c 	nor appear in the generated HTML output%0a%3c (:ifend:)%0a%3c bla.%0a
+host:1621340806=::1
+author:1621339731=
+diff:1621339731:1621339679:=
+host:1621339731=::1
+author:1621339679=
+diff:1621339679:1621339105:=24,26d23%0a%3c %0a%3c %0a%3c {$Version}%0a
+host:1621339679=::1
+author:1621275064=Hossam
+diff:1621275064:1621275046:=
+host:1621275064=::1
+author:1621274415=Hossam
+diff:1621274415:1621274162:=
+host:1621274415=::1
+author:1621274162=Hossam
+diff:1621274162:1621274106:=23c23%0a%3c %25accesskey=x%25 http://www.google.com/ %25%25%0a---%0a> %25accesskey=x%25 http://www.pmwiki.org/ %25%25%0a
+host:1621274162=::1
+author:1621274106=Hossam
+diff:1621274106:1621274049:=
+host:1621274106=::1
+author:1621274049=Hossam
+diff:1621274049:1621272081:=22,23d21%0a%3c %0a%3c %25accesskey=x%25 http://www.pmwiki.org/ %25%25%0a
+host:1621274049=::1
+author:1621272081=Hossam
+diff:1621272081:1621272036:=19,23c19%0a%3c https://pmichaud.com/img/misc/pc.jpg"Paper clips" | [- %25newwin%25 [[ Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]%0a%3c %0a%3c %25color=green%25  Text is Hello%0a%3c %0a%3c %0a---%0a> https://pmichaud.com/img/misc/pc.jpg"Paper clips" | [- %25newwin%25 [[ Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]%0a\ No newline at end of file%0a
+host:1621272081=::1
+author:1621272036=Hossam
+diff:1621272036:1621272017:=
+host:1621272036=::1
+author:1621272017=Hossam
+diff:1621272017:1621271943:=16,19c16%0a%3c || cell 1  ||  cell 2 ||  cell 3 ||%0a%3c %0a%3c %0a%3c https://pmichaud.com/img/misc/pc.jpg"Paper clips" | [- %25newwin%25 [[ Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]%0a\ No newline at end of file%0a---%0a> || cell 1  ||  cell 2 ||  cell 3 ||%0a\ No newline at end of file%0a
+host:1621272017=::1
+author:1621271943=Hossam
+diff:1621271943:1621271908:=11,16c11%0a%3c {+souligné+}%0a%3c %0a%3c %0a%3c || border=1%0a%3c ||! head 1 ||! head 2 ||! head 3 ||%0a%3c || cell 1  ||  cell 2 ||  cell 3 ||%0a\ No newline at end of file%0a---%0a> {+souligné+}%0a\ No newline at end of file%0a
+host:1621271943=::1
+author:1621271908=Hossam
+diff:1621271908:1621271859:=11d10%0a%3c {+souligné+}%0a\ No newline at end of file%0a
+host:1621271908=::1
+author:1621271859=Hossam
+diff:1621271859:1621271783:=7,10d6%0a%3c %0a%3c  ''Emphasize'' (italics),%0a%3c '''strong''' (bold), %0a%3c '''''very strong''''' (bold italics).%0a
+host:1621271859=::1
+author:1621271783=Hossam
+diff:1621271783:1621271772:=5c5%0a%3c %25font-family=monospace%25 Text is Hello with monospace %0a---%0a> %25font-family=monospace%25 Text is Hello%0a
+host:1621271783=::1
+author:1621271772=Hossam
+diff:1621271772:1621271760:=5c5%0a%3c %25font-family=monospace%25 Text is Hello%0a---%0a> %25font-family=emoji%25 Text is Hello%0a
+host:1621271772=::1
+author:1621271760=Hossam
+diff:1621271760:1621271748:=3c3%0a%3c %25font-size=60px%25  Text is Hello%0a---%0a>  Text is %25font-size=60px%25 Hello%0a
+host:1621271760=::1
+author:1621271748=Hossam
+diff:1621271748:1621271732:=5c5%0a%3c %25font-family=emoji%25 Text is Hello%0a---%0a>  Text is %25font-family=emoji%25 Hello%0a
+host:1621271748=::1
+author:1621271732=Hossam
+diff:1621271732:1621271611:=3,6c3%0a%3c  Text is %25font-size=60px%25 Hello%0a%3c %0a%3c  Text is %25font-family=emoji%25 Hello%0a%3c %0a---%0a>  Text is %25font-size=60px%25 Hello%0a\ No newline at end of file%0a
+host:1621271732=::1
+author:1621271611=Hossam
+diff:1621271611:1621271549:=3c3%0a%3c  Text is %25font-size=60px%25 Hello%0a\ No newline at end of file%0a---%0a>  Text is %25font-size=smaller%25 Hello%0a\ No newline at end of file%0a
+host:1621271611=::1
+author:1621271549=Hossam
+diff:1621271549:1621271197:=3c3%0a%3c  Text is %25font-size=smaller%25 Hello%0a\ No newline at end of file%0a---%0a>  Text is %25font-size=40%25%25 Hello%0a\ No newline at end of file%0a
+host:1621271549=::1
+author:1621271197=Hossam
+diff:1621271197:1621271182:=3c3%0a%3c  Text is %25font-size=40%25%25 Hello%0a\ No newline at end of file%0a---%0a>  Text is %25font-size=100%25 Hello%0a\ No newline at end of file%0a
+host:1621271197=::1
+author:1621271182=Hossam
+diff:1621271182:1621271171:=3c3%0a%3c  Text is %25font-size=100%25 Hello%0a\ No newline at end of file%0a---%0a>  Text is %25font-size=10%25 Hello%0a\ No newline at end of file%0a
+host:1621271182=::1
+author:1621271171=Hossam
+diff:1621271171:1621270952:=3c3%0a%3c  Text is %25font-size=10%25 Hello%0a\ No newline at end of file%0a---%0a> {(:fontsizer:)}%0a\ No newline at end of file%0a
+host:1621271171=::1
+author:1621270952=Hossam
+diff:1621270952:1621270685:=3c3%0a%3c {(:fontsizer:)}%0a\ No newline at end of file%0a---%0a> (:fontsizer:)%0a\ No newline at end of file%0a
+host:1621270952=::1
+author:1621270685=Hossam
+diff:1621270685:1621268576:=1,3c1%0a%3c {(sum -2 one 6.04)}%0a%3c %0a%3c (:fontsizer:)%0a\ No newline at end of file%0a---%0a> {(sum -2 one 6.04)}%0a\ No newline at end of file%0a
+host:1621270685=::1
+author:1621268576=Hossam
+diff:1621268576:1621268434:=1c1,14%0a%3c {(sum -2 one 6.04)}%0a\ No newline at end of file%0a---%0a> (:fox cfrm3 put=top target=#res3:)%0a> (:foxtemplate "->{$$arg3} = {$$(calc '{$$arg3}')}":)%0a> Enter math expression:%0a> (:input text arg3:) (:input submit post Calculate:)%0a> (:foxend cfrm3:)%0a> >>frame%3c%3c%0a> [[#res3]]%0a> %0a> [[#res3end]]%0a> >>%3c%3c%0a> (:fox cfrm4 foxaction=replace put=overwrite target=#res3:)%0a> (:foxtemplate " ":)%0a> (:input submit post 'Clear Results':)%0a> (:foxend cfrm4:)%0a\ No newline at end of file%0a
+host:1621268576=::1
+author:1621268434=Hossam
+diff:1621268434:1621268432:=
+host:1621268434=::1
+author:1621268432=Hossam
+diff:1621268432:1621268413:=1,2c1,2%0a%3c (:fox cfrm3 put=top target=#res3:)%0a%3c (:foxtemplate "->{$$arg3} = {$$(calc '{$$arg3}')}":)%0a---%0a> (:fox cfrm2 foxaction=replace put=overwrite target=#res2:)%0a> (:foxtemplate "{$$(calc '{$$arg2}')}":)%0a4,14c4,8%0a%3c (:input text arg3:) (:input submit post Calculate:)%0a%3c (:foxend cfrm3:)%0a%3c >>frame%3c%3c%0a%3c [[#res3]]%0a%3c %0a%3c [[#res3end]]%0a%3c >>%3c%3c%0a%3c (:fox cfrm4 foxaction=replace put=overwrite target=#res3:)%0a%3c (:foxtemplate " ":)%0a%3c (:input submit post 'Clear Results':)%0a%3c (:foxend cfrm4:)%0a\ No newline at end of file%0a---%0a> (:input text arg2:) (:input submit post Calculate:)%0a> (:foxend cfrm2:)%0a> [[#res2]]%0a> %0a> [[#res2end]]%0a\ No newline at end of file%0a
+host:1621268432=::1
+author:1621268413=Hossam
+diff:1621268413:1621268292:=1,2c1,2%0a%3c (:fox cfrm2 foxaction=replace put=overwrite target=#res2:)%0a%3c (:foxtemplate "{$$(calc '{$$arg2}')}":)%0a---%0a> (:fox cfrm1 foxaction=display:)%0a> (:foxtemplate "{$$(calc '{$$arg1}')}":)%0a4,8c4,6%0a%3c (:input text arg2:) (:input submit post Calculate:)%0a%3c (:foxend cfrm2:)%0a%3c [[#res2]]%0a%3c %0a%3c [[#res2end]]%0a\ No newline at end of file%0a---%0a> (:input text arg1:) (:input submit post Calculate:)%0a> (:foxend cfrm1:)%0a> (:foxdisplay cfrm1:)%0a\ No newline at end of file%0a
+host:1621268413=::1
+author:1621268292=Hossam
+diff:1621268292:1621267917:=1,6c1%0a%3c (:fox cfrm1 foxaction=display:)%0a%3c (:foxtemplate "{$$(calc '{$$arg1}')}":)%0a%3c Enter math expression:%0a%3c (:input text arg1:) (:input submit post Calculate:)%0a%3c (:foxend cfrm1:)%0a%3c (:foxdisplay cfrm1:)%0a\ No newline at end of file%0a---%0a>  This is a test%0a\ No newline at end of file%0a
+host:1621268292=::1
+author:1621267917=Hossam
+csum:1621267917=[[My new page]]
+diff:1621267917:1621267915:=
+host:1621267917=::1
+author:1621267915=Hossam
+csum:1621267915=[[My new page]]
+diff:1621267915:1621267842:=1c1,13%0a%3c  This is a test%0a\ No newline at end of file%0a---%0a> (:Summary:The default home page for the PmWiki distribution:)%0a> Welcome to PmWiki!%0a> %0a> A local copy of PmWiki's%0a> documentation has been installed along with the software,%0a> and is available via the [[PmWiki/documentation index]]. %0a> %0a> To continue setting up PmWiki, see [[PmWiki/initial setup tasks]].%0a> %0a> The [[PmWiki/basic editing]] page describes how to create pages%0a> in PmWiki.  You can practice editing in the [[wiki sandbox]].%0a> %0a> More information about PmWiki is available from [[http://www.pmwiki.org]].%0a\ No newline at end of file%0a
+host:1621267915=::1
+author:1621267842=Hossam
+diff:1621267842:1621267759:=1,13c1%0a%3c (:Summary:The default home page for the PmWiki distribution:)%0a%3c Welcome to PmWiki!%0a%3c %0a%3c A local copy of PmWiki's%0a%3c documentation has been installed along with the software,%0a%3c and is available via the [[PmWiki/documentation index]]. %0a%3c %0a%3c To continue setting up PmWiki, see [[PmWiki/initial setup tasks]].%0a%3c %0a%3c The [[PmWiki/basic editing]] page describes how to create pages%0a%3c in PmWiki.  You can practice editing in the [[wiki sandbox]].%0a%3c %0a%3c More information about PmWiki is available from [[http://www.pmwiki.org]].%0a\ No newline at end of file%0a---%0a>  Hello this is a test%0a\ No newline at end of file%0a
+host:1621267842=::1
+author:1621267759=Hossam
+csum:1621267759=[[My new page]]
+diff:1621267759:1400472661:=1c1,13%0a%3c  Hello this is a test%0a\ No newline at end of file%0a---%0a> (:Summary:The default home page for the PmWiki distribution:)%0a> Welcome to PmWiki!%0a> %0a> A local copy of PmWiki's%0a> documentation has been installed along with the software,%0a> and is available via the [[PmWiki/documentation index]].  %0a> %0a> To continue setting up PmWiki, see [[PmWiki/initial setup tasks]].%0a> %0a> The [[PmWiki/basic editing]] page describes how to create pages%0a> in PmWiki.  You can practice editing in the [[wiki sandbox]].%0a> %0a> More information about PmWiki is available from [[http://www.pmwiki.org]].%0a
+host:1621267759=::1
